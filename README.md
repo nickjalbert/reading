@@ -1,7 +1,7 @@
 # Papers and articles
 
-Various notes on readings related to reinforcement learning, neural nets,
-cognitive architectures, and AI.
+Notes on readings related to reinforcement learning, neural nets,
+cognitive architectures, AI, and related topics.
 
 ## VIM spellcheck hints
 
