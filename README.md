@@ -10,3 +10,12 @@ cognitive architectures, AI, and related topics.
 * get suggestions: `z=`
 * add word to dictionary: `zg`
 * mark a word as incorrect: `zw`
+
+
+## Reading Group
+
+### Meeting 1 (March 26, 2020)
+
+* [Zoom In: An Introduction to Circuits](https://distill.pub/2020/circuits/zoom-in/)
+* [Feynman Machine: The Universal Dynamical Systems Computer](https://arxiv.org/abs/1609.03971)
+* [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics](https://arxiv.org/abs/1706.04317)
