@@ -1,3 +1,5 @@
 * [Temporal difference learning and TD-Gammon](https://dl.acm.org/doi/10.1145/203330.203343)
 * [Six views of embodied cognition](https://cogdev.sitehost.iu.edu/labwork/WilsonSixViewsofEmbodiedCog.pdf)
 * [The Cognitive Systems Paradigm](http://www.cogsys.org/pdf/paper-1-2.pdf)
+* [A Framework for Intelligence and Cortical Function Based on Grid Cells in the Neocortex](https://numenta.com/neuroscience-research/research-publications/papers/a-framework-for-intelligence-and-cortical-function-based-on-grid-cells-in-the-neocortex/)
+* [Memory engrams: Recalling the past and imagining the future](https://science.sciencemag.org/content/367/6473/eaaw4325)
