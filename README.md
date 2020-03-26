@@ -14,7 +14,7 @@ cognitive architectures, AI, and related topics.
 
 ## Reading Group
 
-### Meeting 1 (March 26, 2020)
+### Meeting 1 (March 27, 2020)
 
 * [Zoom In: An Introduction to Circuits](https://distill.pub/2020/circuits/zoom-in/)
 * [Feynman Machine: The Universal Dynamical Systems Computer](https://arxiv.org/abs/1609.03971)
