@@ -24,7 +24,7 @@ The basics of their model is that there are **entities** (e.g. objects parsed fr
 an image input), each of these entities have **attributes** and each of the
 attributes have a value.  Then there are **schemas** which capture the relationship
 between entities, entity attributes, actions, and rewards over time. An example
-of a this is Entity 1's position attribute at timestep 5 may be predicated on
+of this is Entity 1's position attribute at timestep 5 may be predicated on
 Entity 1's position attribute at timestep 4 and taking the "UP" action.
 
 They distinguish between **ungrounded schema** and **grounded schema**. An
@@ -38,11 +38,10 @@ consists of the set of all entities and their particular attribute values.
 Then schemas can be placed upon all the attributes in the entities in a given
 state to predict their next values.  Each schema is a set of AND'd
 preconditions.  And each attribute value can be predicted by multiple schema
-OR'd together.  The OR-ing of multiple schemas all explicit reasoning about
+OR'd together.  The OR-ing of multiple schemas allow explicit reasoning about
 multiple causation.
 
 * TODO: lookup object-oriented MDPs and relational MDPs
-
 
 Now, we must figure out how to **learn** a schema network and then use it for
 **planning**.
@@ -56,10 +55,34 @@ To learn the structure of the Schema Network, they "cast the problem as a
 supervised learning problem over a discrete space of parameterizations (the
 schemas),  and then apply a greedy algorithm that solves a sequence of LP
 relaxations."  This seems like a probably-well-understood method of learning.
-They try to minimize prediction error WHILE minimizing the complexity of the
-schema network.
+A key balance they're trying to strike is to both minimize prediction error
+WHILE minimizing the complexity of the schema network.  The general problem is
+NP-hard, so they use a greedy approximation method to generate a solution.
 
-Stopped at section 4.3
+Once they learn a Schema Network, they then use it for planning to get to a
+desired state (e.g. collect positive rewards, avoid negative rewards). They do
+this by (roughly):
+
+* Working forward in their model for T time steps to figure out reachable
+  states.
+* Choosing the reachable state with the best reward.
+* Backtracking to confirm its the chosen state's reachability and discover the
+  set of actions that will maximize the chance of reaching that state.
+
+They then compare Schema Networks to A3C and Progressive Networks (PNs) on
+several variations of Breakout.  They show that Schema Networks transfer their
+learning much faster than A3C or PNs to different variants of Breakout.  They
+then show that Schema Networks can adapt to variants of the game (that exhibit
+the same dynamics) much better than A3C or PNs (e.g. when paddle is offset by N
+pixels) in a zero-shot setting (i.e. train only on regular breakout and then
+have it play the variant).
+
+From the conclusion: "Instead of learning policies to maximize rewards, the
+learning objective for Schema Networks is designed to understand causality
+within these environments.  The fact that Schema Networks are able to achieve
+rewards more efficiently than state-of-the-art model-free methods like A3C is
+all the more notable, since high scores are a byproduct of learning an accurate
+model of the game."
 
 
 ## [Feynman Machine: The Universal Dynamical Systems Computer](https://arxiv.org/abs/1609.03971)
