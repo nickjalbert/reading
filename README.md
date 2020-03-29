@@ -14,6 +14,12 @@ cognitive architectures, AI, and related topics.
 
 ## Reading Group
 
+
+### Meeting 2 (TBD)
+
+* [Six views of embodied cognition](https://cogdev.sitehost.iu.edu/labwork/WilsonSixViewsofEmbodiedCog.pdf)
+* [Memory engrams: Recalling the past and imagining the future](https://science.sciencemag.org/content/367/6473/eaaw4325)
+
 ### Meeting 1 (March 27, 2020)
 
 * [Zoom In: An Introduction to Circuits](https://distill.pub/2020/circuits/zoom-in/)

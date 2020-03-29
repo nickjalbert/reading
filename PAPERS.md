@@ -84,6 +84,12 @@ rewards more efficiently than state-of-the-art model-free methods like A3C is
 all the more notable, since high scores are a byproduct of learning an accurate
 model of the game."
 
+**THOUGHTS:** Interesting whirlwind tour of the PGM world and how one might try
+to learn higher-level models.  Don't have enough background to evaluate how
+novel or effective this particular technique is, but seems promising from their
+results. A lot of pointers to work worth following up on (e.g. OO-MDPs, PGMs in
+general, MAP/MBPB, planning, etc)
+
 
 ## [Feynman Machine: The Universal Dynamical Systems Computer](https://arxiv.org/abs/1609.03971)
 ### Eric Laukien, Richard Crowder, Fergal Byrne
