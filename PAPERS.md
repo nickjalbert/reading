@@ -1,5 +1,8 @@
+## [Six views of embodied cognition](https://cogdev.sitehost.iu.edu/labwork/WilsonSixViewsofEmbodiedCog.pdf)
+### Margaret Wilson
+
 ## [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics](https://arxiv.org/abs/1706.04317)
-## Ken Kansky, Tom Silver, David A. Mély, Mohamed Eldawy, Miguel Lázaro-Gredilla, Xinghua Lou, Nimrod Dorfman, Szymon Sidor, Scott Phoenix, Dileep George
+### Ken Kansky, Tom Silver, David A. Mély, Mohamed Eldawy, Miguel Lázaro-Gredilla, Xinghua Lou, Nimrod Dorfman, Szymon Sidor, Scott Phoenix, Dileep George
 
 Examines transfer learning using the game of Breakout as an example.  Current
 state-of-the-art RL techniques can learn to play Breakout very well.  However,
@@ -104,7 +107,7 @@ on in the mammalian context.
 
 Science is the study of things that change over time, a search for rules and
 laws which describe their structure and evolution over time, and is based on
-the premise that the world is lawful and its rules are discoverable. 
+the premise that the world is lawful and its rules are discoverable.
 
 * Dynamical system -- a system governed by express update rules (either
   continuous or discrete)
@@ -126,7 +129,7 @@ and an hidden/upward face.  Each face has inputs and outputs.
   control/behavior/feedback/routing signals)
 
 * hidden/upward input - receives predictions of future inputs from higher
-  regions 
+  regions
 
 * hidden/upward output - encodings of the sensorimotor data received from the
   visible input
@@ -148,6 +151,11 @@ they've gotten good results on with lower compute requirements.
 * TODO - Autoencoders
 * TODO - AIXI model
 
+**THOUGHTS:** This reads a lot like a white paper.  We would be interested in
+more details of their evaluation. Still intriguing, and harmonizes with a lot
+of what is coming out of the neuroscience world (e.g see Clark's Surfing
+Uncertainty), esp. because we found them because they were getting interesting
+results training and running on a Raspberry Pi.
 
 ## [Neural Networks are Surprisingly Modular](https://arxiv.org/abs/2003.04881)
 ### Daniel Filan, Shlomi Hod, Cody Wild, Andrew Critch, Stuart Russell
@@ -198,7 +206,7 @@ neural net.
 
 Also, however, note that neural networks often contain “polysemantic neurons”
 that respond to multiple unrelated inputs. For example, InceptionV1 contains
-one neuron that responds to cat faces, fronts of cars, and cat legs. 
+one neuron that responds to cat faces, fronts of cars, and cat legs.
 
 Features build up into circuits.  They dig into a dog head detector that's
 built up of smaller curve detectors and snout detectors and various connections
