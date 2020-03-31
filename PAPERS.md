@@ -1,3 +1,24 @@
+## [Memory engrams: Recalling the past and imagining the future](https://science.sciencemag.org/content/367/6473/eaaw4325)
+### Sheena Josselyn, Susumu Tonegawa
+
+**Summary page only**
+
+"Engram" is used to describe the neural substance of memories.  As we learn, we
+generate persistent neural structures that can be reactivated due to related
+stimuli. Evidence was initially scarce, but Hebbian learning (synaptic
+connections strengthening/weakening based on stimulus) seemed promising.
+
+Later experiments showed that destroying or activating specific neurons could
+impede or aid memory retrieval.  Experiments also suggest that neurons
+"compete" to be a part of memory, and this competition results in the larger
+scale structure of the brain. Competition over excitability and neural
+plasticity work hand-in-hand to create memory.  There is also a suggestion that
+engrams can exist in different states (e.g. they can be unrecoverable, or
+"silent").
+
+Research is now ongoing to better understand and characterize these engrams.
+
+
 ## [Surfing Uncertainty: Introduction](https://global.oup.com/academic/product/surfing-uncertainty-9780190217013)
 ### Andy Clark
 
