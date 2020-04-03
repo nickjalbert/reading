@@ -1,3 +1,4 @@
+
 ## [Surfing Uncertainty: Chapter 1](https://global.oup.com/academic/product/surfing-uncertainty-9780190217013)
 ### Andy Clark
 
@@ -63,6 +64,11 @@ Other notables from the chapter:
 * Predictive processing sees the brain as an active, generative thing
   ("proactive predictavores") rather than a passive recorder.
 
+**THOUGHTS**: Good to read at a high-level and then fill in the picture with
+targetted reviews.  A bit confused, are there both representational and error
+neurons or is that all combined in the communication between layers.  Brains
+are proactive predictavores.
+
 
 ## [Memory engrams: Recalling the past and imagining the future](https://science.sciencemag.org/content/367/6473/eaaw4325)
 ### Sheena Josselyn, Susumu Tonegawa
@@ -83,6 +89,10 @@ engrams can exist in different states (e.g. they can be unrecoverable, or
 "silent").
 
 Research is now ongoing to better understand and characterize these engrams.
+
+**THOUGHTS**: the diagrams are approachable.  Easy to get lost in the details
+of neurochemistry, might just be useful to read at a high-level and grapple
+with the diagrams.
 
 
 ## [Surfing Uncertainty: Introduction](https://global.oup.com/academic/product/surfing-uncertainty-9780190217013)
@@ -248,6 +258,9 @@ Excerpts from the paper's conclusion:
   what is distant in time or space, may have been one of the driving forces
   behind the runaway train of human intelligence that separated us from other
   hominids."
+
+**THOUGHTS**: a decent survey of the field, gives good high-level pointers.
+Sometimes a little overly-hair-splitting when it comes to definitions.
 
 
 ## [Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics](https://arxiv.org/abs/1706.04317)
