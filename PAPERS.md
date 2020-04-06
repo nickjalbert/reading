@@ -1,3 +1,21 @@
+## [Introduction to Bayesian data analysis - Part 3: How to do Bayes?](https://www.youtube.com/watch?v=Ie-6H_r7I5A)
+### Rasmus Bååth
+
+* How to actual use Bayes in practice:  Approximate Bayesian computation (as
+  we did in part 1 and 2) is slow.  Faster models all require that the
+  generative model allows you to directly calculate the probability of seeing
+  a particular result.  Faster models also explore the parameter space in a
+  smarter way.
+
+* relates bayes to maximum likelihood estimation
+
+* markov chain monte carlo allows for exploration of complicated parameter
+  spaces.
+
+* paused at 18:00
+
+
+
 ## [Surfing Uncertainty: Chapter 2](https://global.oup.com/academic/product/surfing-uncertainty-9780190217013)
 ### Andy Clark
 
