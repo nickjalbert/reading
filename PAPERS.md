@@ -1,3 +1,54 @@
+## [Surfing Uncertainty: Chapter 2](https://global.oup.com/academic/product/surfing-uncertainty-9780190217013)
+### Andy Clark
+
+
+* How do you filter signal from noise and dynamically modify your filters?
+
+* Sine wave speech priming perception - generative models playing a role in
+  top-down processing.
+
+* cognitive machinery continual estimates and re-estimates uncertainty in its
+  predictions to decide how much to rely on sense vs top-down knowledge.
+
+* On a foggy day, visual error is given less weight than on a bright and sunny
+  day. Impact of prediction error is attenuated by the precision we expect from
+  the sensory input.
+
+* attention means we're putting higher value on the prediction error for the
+  thing we're attending. There can be both an error enhancement and error
+  suppression effect, depending on what we're attending.
+
+* it seems hard to attend something for a long period where the attention does
+  not generate new information.
+
+* precision estimates on sensory data help us to balance and react to data
+  better (e.g. in an environment where sight seems precise but audio not so
+  much, we ignore some audio and rely more heavily on sight).
+
+* the idea is introduced that the generative predictive models come with a
+  game plan on how to best reduce uncertainty using your senses.
+
+* Low level salience maps don't seem to describe our behavior in real
+  situations; combinations of those with top-down predictive models do better
+  (e.g. looking at where the ball will be in baseball).
+
+* PP treats action, perception, and attention as forming a single mechanism for
+  integrating bottom-up sensory data with top-down predictions.
+
+* side note: thinking about magicians and how they manipulate our expectations
+  on reducing uncertainty to perform their tricks.
+
+* Active agents are driven to sample the world to confirm their own perceptual
+  hypotheses.
+
+* Confirmation bias directly falls out of this model
+
+* schizophrenic hallucinations and delusions might represent a breakdown of the
+  machinery that determines how reliable sensory data is and how reliable our
+  predictions are.  False perceptions and bizarre beliefs can become
+  self-reinforcing as hyperpriors are reshaped.
+
+
 ## [Introduction to Bayesian data analysis - Part 2: Why use Bayes?](https://www.youtube.com/watch?v=mAUwjSo5TJE)
 ### Rasmus Bååth
 
