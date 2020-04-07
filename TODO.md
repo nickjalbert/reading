@@ -16,3 +16,13 @@
 ## Neuroscience
 
 
+## Video
+
+## Blog
+
+* [God Help Us, Let’s Try To Understand Friston On Free Energy](https://slatestarcodex.com/2018/03/04/god-help-us-lets-try-to-understand-friston-on-free-energy/)
+* [Guyenet On Motivation](https://slatestarcodex.com/2018/02/07/guyenet-on-motivation/)
+* [Book Review: The Hungry Brain](https://slatestarcodex.com/2017/04/25/book-review-the-hungry-brain/)
+* [Toward A Predictive Theory Of Depression](https://slatestarcodex.com/2017/09/12/toward-a-predictive-theory-of-depression/)
+* [It’s Bayes All The Way Up](https://slatestarcodex.com/2016/09/12/its-bayes-all-the-way-up/)
+
