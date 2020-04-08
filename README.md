@@ -14,14 +14,22 @@ cognitive architectures, AI, and related topics.
 
 ## Reading Group
 
+### Meeting 6 (TDB)
 
-### Meeting 4 (Tuesday, April 7, 2020)
+* Surfing Uncertainty: Chapter 3
+* Supplementary paper to Surfing Uncertainty (TBD)
+
+
+### Meeting 5 (Wednesday, April 8, 2020)
 
 * [Introduction to Bayesian data analysis - Part 1: What is Bayes?](https://www.youtube.com/watch?v=3OJEae7Qb_o)
 * [Introduction to Bayesian data analysis - Part 2: Why use Bayes?](https://www.youtube.com/watch?v=mAUwjSo5TJE)
 * [Introduction to Bayesian data analysis - Part 3: How to do Bayes?](https://www.youtube.com/watch?v=Ie-6H_r7I5A)
-* Surfing Uncertainty: Chapter 2
 * [Strang: Orthogonal Vectors and Subspaces](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/)
+
+### Meeting 4 (Tuesday, April 7, 2020)
+
+* Surfing Uncertainty: Chapter 2
 
 
 ### Meeting 3 (Friday, April 3, 2020)
