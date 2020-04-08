@@ -90,6 +90,28 @@
   predictions are.  False perceptions and bizarre beliefs can become
   self-reinforcing as hyperpriors are reshaped.
 
+* From the wiki on [Predictive coding](https://en.wikipedia.org/wiki/Predictive_coding#General_framework):
+
+    * A comparison between predictions (priors) and sensory input (likelihood)
+      yields a difference measure (e.g. prediction error, free energy, or
+      surprise) which, if it is sufficiently large beyond the levels of
+      expected statistical noise, will cause the generative model to update so
+      that it better predicts sensory input in the future.
+
+    * If, instead, the model accurately predicts driving sensory signals,
+      activity at higher levels cancels out activity at lower levels, and the
+      posterior probability of the model is increased. Thus, predictive coding
+      inverts the conventional view of perception as a mostly bottom-up
+      process, suggesting that it is largely constrained by prior predictions,
+      where signals from the external world only shape perception to the extent
+      that they are propagated up the cortical hierarchy in the form of
+      prediction error.
+
+
+* Useful exercise: try to draw the Feynman machine like boxes proposed by
+  predictive processing.
+
+* **TODO**: find papers on implementation of predictive coding
 
 ## [Introduction to Bayesian data analysis - Part 2: Why use Bayes?](https://www.youtube.com/watch?v=mAUwjSo5TJE)
 ### Rasmus Bååth
@@ -148,7 +170,7 @@ We will generate our posterior "guess" of the actual **p** as follows
   be selected)
 
 * Plug the selected **p** into a binomial model, simulate the binomial with
-  n=16 and p=**p** 
+  n=16 and p=**p**
 
 * If the proportion of "successful" flips in the simulation equals the 6 we
   observed in the data, count the trial as a success.
