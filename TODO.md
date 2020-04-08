@@ -26,3 +26,10 @@
 * [Toward A Predictive Theory Of Depression](https://slatestarcodex.com/2017/09/12/toward-a-predictive-theory-of-depression/)
 * [It’s Bayes All The Way Up](https://slatestarcodex.com/2016/09/12/its-bayes-all-the-way-up/)
 
+## Linear Algebra
+
+* [Strang Lecture 7: Column Space and Nullspace](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace)
+* [Strang Lecture 8: Solving Ax = 0: Pivot Variables, Special Solutions](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-0-pivot-variables-special-solutions)
+* [Strang Lecture 9: Solving Ax = b: Row Reduced Form R](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/)
+* [Strang Lecture 10: Independence, Basis and Dimension](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/independence-basis-and-dimension/)
+* [Strang Lecture 11: The Four Fundamental Subspaces](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-four-fundamental-subspaces/)
