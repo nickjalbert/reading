@@ -182,6 +182,8 @@ generate the 6 out of 16 you saw.  This looks normal around 37.5%.  This is
 Bayes in a nutshell.  You take your prior, gather some evidence, and update
 your prior into the posterior to incorporate your evidence.
 
+**THOUGHTS**: very useful video series to generate some Bayesian intuition.
+
 
 ## [Surfing Uncertainty: Chapter 1](https://global.oup.com/academic/product/surfing-uncertainty-9780190217013)
 ### Andy Clark
