@@ -14,10 +14,11 @@ cognitive architectures, AI, and related topics.
 
 ## Reading Group
 
-### Meeting 6 (TDB)
+### Meeting 6 (Saturday, April 11, 2020)
 
 * Surfing Uncertainty: Chapter 3
-* Supplementary paper to Surfing Uncertainty (TBD)
+* [Strang Lecture 7: Column Space and Nullspace](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace)
+* [The free-energy principle: a unified brain theory?](https://www.ncbi.nlm.nih.gov/pubmed/20068583)
 
 
 ### Meeting 5 (Wednesday, April 8, 2020)
