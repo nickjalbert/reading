@@ -17,7 +17,7 @@ cognitive architectures, AI, and related topics.
 ### Meeting 6 (Saturday, April 11, 2020)
 
 * Surfing Uncertainty: Chapter 3
-* [Strang Lecture 7: Column Space and Nullspace](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace)
+* [Strang Lecture 6: Column Space and Nullspace](https://www.youtube.com/watch?v=8o5Cmfpeo6g)
 * [The free-energy principle: a unified brain theory?](https://www.ncbi.nlm.nih.gov/pubmed/20068583)
 
 
@@ -26,7 +26,7 @@ cognitive architectures, AI, and related topics.
 * [Introduction to Bayesian data analysis - Part 1: What is Bayes?](https://www.youtube.com/watch?v=3OJEae7Qb_o)
 * [Introduction to Bayesian data analysis - Part 2: Why use Bayes?](https://www.youtube.com/watch?v=mAUwjSo5TJE)
 * [Introduction to Bayesian data analysis - Part 3: How to do Bayes?](https://www.youtube.com/watch?v=Ie-6H_r7I5A)
-* [Strang Lecture 15: Orthogonal Vectors and Subspaces](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/)
+* [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 
 ### Meeting 4 (Tuesday, April 7, 2020)
 

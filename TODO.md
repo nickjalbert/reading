@@ -28,8 +28,7 @@
 
 ## Linear Algebra
 
-* [Strang Lecture 7: Column Space and Nullspace](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace)
-* [Strang Lecture 8: Solving Ax = 0: Pivot Variables, Special Solutions](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-0-pivot-variables-special-solutions)
-* [Strang Lecture 9: Solving Ax = b: Row Reduced Form R](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/)
-* [Strang Lecture 10: Independence, Basis and Dimension](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/independence-basis-and-dimension/)
-* [Strang Lecture 11: The Four Fundamental Subspaces](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-four-fundamental-subspaces/)
+* [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
+* [Strang Lecture 8: Solving Ax = b: Row Reduced Form R](https://www.youtube.com/watch?v=9Q1q7s1jTzU)
+* [Strang Lecture 9: Independence, Basis and Dimension](https://www.youtube.com/watch?v=yjBerM5jWsc)
+* [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
