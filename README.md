@@ -18,7 +18,7 @@ cognitive architectures, AI, and related topics.
 
 * Surfing Uncertainty: Chapter 3
 * [Strang Lecture 6: Column Space and Nullspace](https://www.youtube.com/watch?v=8o5Cmfpeo6g)
-* [The free-energy principle: a unified brain theory?](https://www.ncbi.nlm.nih.gov/pubmed/20068583)
+* [The free-energy principle: a unified brain theory?](https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf)
 
 
 ### Meeting 5 (Wednesday, April 8, 2020)
