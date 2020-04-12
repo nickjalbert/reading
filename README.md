@@ -14,6 +14,12 @@ cognitive architectures, AI, and related topics.
 
 ## Reading Group
 
+### Meeting 7 (TBD)
+
+* [The free-energy principle: a unified brain theory?](https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf)
+* [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
+* [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
+
 ### Meeting 6 (Saturday, April 11, 2020)
 
 * Surfing Uncertainty: Chapter 3

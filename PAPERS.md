@@ -42,8 +42,12 @@
 
 * Stopped: principle of efficient coding section (p5)
 
+* **Discussion**: surprise as -log(p).  entropy is the expected surpise.  For most
+  processes, correctly modeling minimizes entropy but surprise will likely be
+  irreducible.
 
-## [Lecture 7: Column Space and Nullspace](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace)
+
+## [Lecture 6: Column Space and Nullspace](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace)
 ## Gilbert Strang
 
 * Discussion of subspaces plane P through zero and line L through zero in
