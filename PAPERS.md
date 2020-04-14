@@ -1,3 +1,30 @@
+
+## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
+### Rafal Bogacz
+
+* The predictive coding model provides a biologically-plausible account of how
+  organisms infer stimuli from noisy inputs.  Introduced by Rao and Ballard in
+  1999.  Friston extended the model in 2005 to also learn uncertainty
+  associated with different features (e.g. attentional mechanism).  Friston's
+  model can also be viewed as approximate Bayesian inference based on a
+  minimization of free energy.
+
+* This paper provides a tutorial that aims to be broadly accessible to a
+  technical audience.
+
+* Conditions for a model to be biological plausible:
+
+    * Local computation - each neuron need only know about its inputs and
+      outputs.
+
+    * Local plasticity - localized changes can be used to train the model.
+
+* We start with a problem: a single organism is trying to infer the diameter of
+  a food item on the basis of observed light intensity from one noisy light
+  receptor.  There exists a non-linear function `g` relating average light
+  intensity with size.
+
+
 ## [The free-energy principle: a unified brain theory?](https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf)
 ### Karl Friston
 
