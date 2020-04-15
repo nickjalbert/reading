@@ -4,11 +4,13 @@
 * Use elimination to solve a 3x4 rectangular matrix ($A$):
 
 $$
-    \begin{pmatrix}
-    1 & 2 & 2 &  2 \\
-    2 & 4 & 6 &  8 \\
-    3 & 6 & 8 & 10 \\
-    \end{pmatrix}
+    \begin{bmatrix}
+        \begin{array}{rrrr}
+            1 & 2 & 2 &  2 \\
+            2 & 4 & 6 &  8 \\
+            3 & 6 & 8 & 10 \\
+        \end{array}
+    \end{bmatrix}
 $$
 
 * During elimination:
@@ -20,11 +22,13 @@ $$
 * Result of elimination ($U$):
 
 $$
-    \begin{pmatrix}
-    1 & 2 & 2 & 2 \\
-    0 & 0 & 2 & 4 \\
-    0 & 0 & 0 & 0 \\
-    \end{pmatrix}
+    \begin{bmatrix}
+        \begin{array}{rrrr}
+            1 & 2 & 2 & 2 \\
+            0 & 0 & 2 & 4 \\
+            0 & 0 & 0 & 0 \\
+        \end{array}
+    \end{bmatrix}
 $$
 
 
@@ -57,7 +61,7 @@ $$
 
 
 $$
-nullspace(A) = c_1 * \begin{pmatrix} -2 \\ 1 \\ 0 \\ 0 \\ \end{pmatrix} + c_2 * \begin{pmatrix} 2 \\ 0 \\ -2 \\ 1 \end{pmatrix}
+nullspace(A) = c_1 * \begin{bmatrix} \begin{array}{r} -2 \\ 1 \\ 0 \\ 0 \\ \end{array} \end{bmatrix} + c_2 * \begin{bmatrix} \begin{array}{r} 2 \\ 0 \\ -2 \\ 1 \end{array} \end{bmatrix}
 $$
 
 * Rank is equal to the pivot variable count.  Free variables is $n-R$ for an
@@ -84,10 +88,12 @@ $$
 * Typical rref looks like (I is identity matrix, F is free variables, the columns from I and F may be intermixed):
 
 $$ 
-    \begin{pmatrix}
-    I F
-    0 0
-    \end{pmatrix}
+    \begin{bmatrix}
+        \begin{array}{rr}
+            I & F \\
+            0 & 0 \\
+        \end{array}
+    \end{bmatrix}
 $$
 
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
