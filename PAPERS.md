@@ -1,11 +1,9 @@
 ## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
 ## Gilbert Strang
 
-<img src="/tex/47d54de4e337a06266c0e1d22c9b417b.svg?invert_in_darkmode&sanitize=true" align=middle width=6.552545999999997pt height=27.77565449999998pt/>
-
-test
-
 * Use elimination to solve a 3x4 rectangular matrix (A):
+
+<p align="center"><img src="/tex/4273486562de757f32a43006eca046ab.svg?invert_in_darkmode&sanitize=true" align=middle width=90.4110966pt height=50.04566325pt/></p>
 
 ```
 1  2  2   2
