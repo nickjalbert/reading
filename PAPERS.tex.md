@@ -1,11 +1,15 @@
 ## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
 ## Gilbert Strang
 
-$\frac{1}{2}$
-
-test
-
 * Use elimination to solve a 3x4 rectangular matrix (A):
+
+$$
+    \begin{matrix}
+    1 & 2 & 2 &  2 \\
+    2 & 4 & 6 &  8 \\
+    3 & 6 & 8 & 10 \\
+    \end{matrix}
+$$
 
 ```
 1  2  2   2
