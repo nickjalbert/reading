@@ -63,6 +63,8 @@
 
 <p align="center"><img src="/tex/d344e8c92f231360ad6f867c8d6a6fb3.svg?invert_in_darkmode&sanitize=true" align=middle width=71.5982586pt height=39.452455349999994pt/></p>
 
+* Paused at 29:00
+
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
 ### Rafal Bogacz
 
