@@ -70,10 +70,12 @@ $$
   rows above them and make pivots equal to 1. $R$ for our above example is:
 
 $$
-    \begin{bmatrix}{rrrr}
-    1 & 2 & 0 & -2 \\
-    0 & 0 & 1 & 2 \\
-    0 & 0 & 0 & 0 \\
+    \begin{bmatrix}
+        \begin{array}{rrrr}
+            1 & 2 & 0 & -2 \\
+            0 & 0 & 1 & 2 \\
+            0 & 0 & 0 & 0 \\
+        \end{array}
     \end{bmatrix}
 $$
 
