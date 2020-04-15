@@ -3,6 +3,8 @@
 
 $\frac{1}{2}$
 
+test
+
 * Use elimination to solve a 3x4 rectangular matrix (A):
 
 ```
