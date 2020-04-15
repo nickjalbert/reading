@@ -59,3 +59,4 @@ cognitive architectures, AI, and related topics.
 ## Resources
 
 * [Strang's Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/resource-index/)
+* [Github Texify app](https://stackoverflow.com/a/53981118)
