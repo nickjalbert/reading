@@ -70,7 +70,7 @@ $$
   rows above them and make pivots equal to 1. $R$ for our above example is:
 
 $$
-    \begin{bmatrix*}
+    \begin{bmatrix*}{rrrr}
     1 & 2 & 0 & -2 \\
     0 & 0 & 1 & 2 \\
     0 & 0 & 0 & 0 \\
