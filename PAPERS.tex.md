@@ -1,7 +1,7 @@
 ## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
 ## Gilbert Strang
 
-* Use elimination to solve a 3x4 rectangular matrix (A):
+* Use elimination to solve a 3x4 rectangular matrix ($A$):
 
 $$
     \begin{matrix}
@@ -17,7 +17,7 @@ $$
     * Columnspace **IS** changing
     * Rowspace does not change (not explicitly mentioned, but assume so)
 
-* Result of elimination (U):
+* Result of elimination ($U$):
 
 $$
     \begin{matrix}
@@ -32,7 +32,7 @@ $$
 
 * 2 total pivots; they are 1 at (1,1) and 2 at (2,3)
 
-* The result of elimination is in upper echelon form (U)
+* The result of elimination is in upper echelon form ($U$)
 
 * Rank of matrix == pivots == 2 in this example.
 
@@ -57,11 +57,36 @@ $$
 
 
 $$
-nullspace(A) = c_1 * \begin{matrix} -2 \\ 1 \\ 0 \\ 0 \\ \end{matrix} + c_2 * \begin{matrix} 2 \\ 0 \\ -2 \\ 1 \end{matrix}
+nullspace(A) = c_1 * \begin{pmatrix} -2 \\ 1 \\ 0 \\ 0 \\ \end{pmatrix} + c_2 * \begin{matrix} 2 \\ 0 \\ -2 \\ 1 \end{matrix}
 $$
 
-* Paused at 16:30
+* Rank is equal to the pivot variable count.  Free variables is $n-R$ for an
+  $m \times n$ matrix.
 
+* Finding the nullspace: Do elimination.  Set each free variable to one (and
+  others to zero) and solve for a vector in the nullspace.
+
+* Matrix $R$ is the reduced row echelon form.  Use the pivots to clean up the
+  rows above them and make pivots equal to 1. $R$ for our above example is:
+
+$$
+    \begin{matrix}
+    1 & 2 & 0 & -2 \\
+    0 & 0 & 1 & 2 \\
+    0 & 0 & 0 & 0 \\
+    \end{matrix}
+$$
+
+* Note the identity matrix $I$ is mixed into the rref matrix $R$.
+
+* Typical rref looks like (I is identity matrix, F is free variables, the columns from I and F may be intermixed):
+
+$$ 
+    \begin{matrix}
+    I F
+    0 0
+    \end{matrix}
+$$
 
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
 ### Rafal Bogacz
