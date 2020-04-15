@@ -96,6 +96,8 @@ $$
     \end{bmatrix}
 $$
 
+* Paused at 29:00
+
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
 ### Rafal Bogacz
 
