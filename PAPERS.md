@@ -1,3 +1,64 @@
+## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
+## Gilbert Strang
+
+* Use elimination to solve a 3x4 rectangular matrix (A):
+
+```
+1  2  2   2
+2  4  6   8
+3  6  8  10
+```
+
+* During elimination:
+    * Nullspace does not change
+    * Solutions do not change
+    * Columnspace **IS** changing
+    * Rowspace does not change (not explicitly mentioned, but assume so)
+
+* Result of elimination (U):
+
+```
+1  2  2  2
+0  0  2  4
+0  0  0  0
+```
+
+* No pivot in second column means it's free (a combo of other columns)
+
+* 2 total pivots; they are 1 at (1,1) and 2 at (2,3)
+
+* The result of elimination is in upper echelon form (U)
+
+* Rank of matrix == pivots == 2 in this example.
+
+* You can solve `Ux=0`, same solutions as `Ax=0`
+
+* 2 pivot columns, 2 free columns
+
+* You can assign any number to the free columns and then solve the equations
+  for the pivots columns.
+
+* Assign `x_2 = 1` and `x_4 = 0` to the free variables and solve for `x_1` and
+  `x_3`.  Note `x_1=-2` and `x_3=0` after back subbing.  This is a vector in
+  the nullspace and any multiple of it is in the nullspace.
+
+* You have two free variables, so you need another vector in the nullspace.
+  Now Assign `x_2 = 0` and `x_4 = 1` to the free variables and solve for `x_1`
+  and `x_3`.  Note `x_1=2` and `x_3=-2` after back subbing.  This is anonter
+  vector in the nullspace and any multiple of it is in the nullspace.
+
+* Any linear combination of those two vectors are in the nullspace.  You'll get
+  one vector in the nullspace for each free column.
+
+```
+                      -2            2
+nullspace(A) = c_1 *   1  +  c_2 *  0
+                       0           -2
+                       0            1
+```
+
+* Paused at 16:30
+
 
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
 ### Rafal Bogacz
