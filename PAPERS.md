@@ -24,6 +24,23 @@
   receptor.  There exists a non-linear function `g` relating average light
   intensity with size.
 
+* Interesting to note: once distributions aren't standard (e.g. normal or
+  otherwise well known) you can't represent them compactly with summary
+  statistics.  It seems likely there has to be some sort of approximation going
+  on in the brain.
+
+* Also interesting: calculating the bayesian normalization term (the
+  denominator) seems difficult for neural systems (also, not super
+  straightforward for computer systems, either).
+
+* Suggests that instead of find the whole posterior, we just find the most
+  likely size of the food item given the sensor reading.  This is claimed to be
+  much more plausible to implement in neural circuits.
+
+* Importantly, the value that maximizes the likelihood (phi) does not depend on
+  the denominator so we can not consider it.  Take the natural log of the
+  numerator `p(u | phi) * p(phi)` to get `ln(p(u | phi)) + ln(p(phi))`.
+
 
 ## [The free-energy principle: a unified brain theory?](https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf)
 ### Karl Friston
