@@ -3,7 +3,7 @@
 
 * Use elimination to solve a 3x4 rectangular matrix (<img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>):
 
-<p align="center"><img src="/tex/a2bdfa2d2e3db8b82b990c90950fe64f.svg?invert_in_darkmode&sanitize=true" align=middle width=119.17827899999999pt height=59.1786591pt/></p>
+<p align="center"><img src="/tex/bebe32224cc9eb809d4cdde8d74f24ac.svg?invert_in_darkmode&sanitize=true" align=middle width=128.76731835pt height=59.1786591pt/></p>
 
 * During elimination:
     * Nullspace does not change
@@ -13,7 +13,7 @@
 
 * Result of elimination (<img src="/tex/6bac6ec50c01592407695ef84f457232.svg?invert_in_darkmode&sanitize=true" align=middle width=13.01596064999999pt height=22.465723500000017pt/>):
 
-<p align="center"><img src="/tex/75553bb8069789fc46deeedb517d4b17.svg?invert_in_darkmode&sanitize=true" align=middle width=110.95907624999998pt height=59.1786591pt/></p>
+<p align="center"><img src="/tex/45a25ec04e9bb57f0e505f6908eb87ef.svg?invert_in_darkmode&sanitize=true" align=middle width=120.5481156pt height=59.1786591pt/></p>
 
 
 * No pivot in second column means it's free (a combo of other columns)
@@ -44,7 +44,7 @@
   one vector in the nullspace for each free column.
 
 
-<p align="center"><img src="/tex/b34a76c7b165f5e8016cda83afa9a2fa.svg?invert_in_darkmode&sanitize=true" align=middle width=295.86012719999997pt height=78.9048876pt/></p>
+<p align="center"><img src="/tex/5f83f0b1197881e1276d626ea6ad91b3.svg?invert_in_darkmode&sanitize=true" align=middle width=315.03822405pt height=78.9048876pt/></p>
 
 * Rank is equal to the pivot variable count.  Free variables is <img src="/tex/f7ac410dd4413138a6d3f58028ae8c58.svg?invert_in_darkmode&sanitize=true" align=middle width=42.566541599999994pt height=22.465723500000017pt/> for an
   <img src="/tex/205995f88b807b2f5268f7ef4053f049.svg?invert_in_darkmode&sanitize=true" align=middle width=44.39116769999999pt height=19.1781018pt/> matrix.
@@ -61,7 +61,7 @@
 
 * Typical rref looks like (I is identity matrix, F is free variables, the columns from I and F may be intermixed):
 
-<p align="center"><img src="/tex/137d4b7dd3c1d335dc71f8935aa80b42.svg?invert_in_darkmode&sanitize=true" align=middle width=52.87684545pt height=19.726228499999998pt/></p>
+<p align="center"><img src="/tex/d344e8c92f231360ad6f867c8d6a6fb3.svg?invert_in_darkmode&sanitize=true" align=middle width=71.5982586pt height=39.452455349999994pt/></p>
 
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
 ### Rafal Bogacz
