@@ -5,12 +5,6 @@
 
 <p align="center"><img src="/tex/4273486562de757f32a43006eca046ab.svg?invert_in_darkmode&sanitize=true" align=middle width=90.4110966pt height=50.04566325pt/></p>
 
-```
-1  2  2   2
-2  4  6   8
-3  6  8  10
-```
-
 * During elimination:
     * Nullspace does not change
     * Solutions do not change
@@ -19,11 +13,8 @@
 
 * Result of elimination (U):
 
-```
-1  2  2  2
-0  0  2  4
-0  0  0  0
-```
+<p align="center"><img src="/tex/cfc7e578003f9a53100b5d20c3030168.svg?invert_in_darkmode&sanitize=true" align=middle width=82.19188725pt height=50.04566325pt/></p>
+
 
 * No pivot in second column means it's free (a combo of other columns)
 
@@ -33,31 +24,27 @@
 
 * Rank of matrix == pivots == 2 in this example.
 
-* You can solve `Ux=0`, same solutions as `Ax=0`
+* You can solve <img src="/tex/2fe657088322d47b689cd44cc71ccd05.svg?invert_in_darkmode&sanitize=true" align=middle width=52.54776779999999pt height=22.465723500000017pt/>, same solutions as <img src="/tex/2b71965bdc17323260ed22a8cc29538d.svg?invert_in_darkmode&sanitize=true" align=middle width=51.86062694999999pt height=22.465723500000017pt/>
 
 * 2 pivot columns, 2 free columns
 
 * You can assign any number to the free columns and then solve the equations
   for the pivots columns.
 
-* Assign `x_2 = 1` and `x_4 = 0` to the free variables and solve for `x_1` and
-  `x_3`.  Note `x_1=-2` and `x_3=0` after back subbing.  This is a vector in
+* Assign <img src="/tex/56139c2ecb22056c1ab58d6e6fc736a1.svg?invert_in_darkmode&sanitize=true" align=middle width=46.90628744999999pt height=21.18721440000001pt/> and <img src="/tex/face1f7a70bce3be1526cc862d0b9567.svg?invert_in_darkmode&sanitize=true" align=middle width=46.90628744999999pt height=21.18721440000001pt/> to the free variables and solve for <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/> and
+  <img src="/tex/2c52641cc5fa73cbbdf887c89d82f0de.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>.  Note <img src="/tex/9ff44075699a748a2691b4dabf6780eb.svg?invert_in_darkmode&sanitize=true" align=middle width=59.69172164999999pt height=21.18721440000001pt/> and <img src="/tex/1412bdb3a4c77853bafc5e9e1b7150e5.svg?invert_in_darkmode&sanitize=true" align=middle width=46.90628744999999pt height=21.18721440000001pt/> after back subbing.  This is a vector in
   the nullspace and any multiple of it is in the nullspace.
 
 * You have two free variables, so you need another vector in the nullspace.
-  Now Assign `x_2 = 0` and `x_4 = 1` to the free variables and solve for `x_1`
-  and `x_3`.  Note `x_1=2` and `x_3=-2` after back subbing.  This is anonter
+  Now Assign <img src="/tex/3b556ebecf31f20220e296e4687393a3.svg?invert_in_darkmode&sanitize=true" align=middle width=46.90628744999999pt height=21.18721440000001pt/> and <img src="/tex/fb6f7317d69927ab9949587450b52cd8.svg?invert_in_darkmode&sanitize=true" align=middle width=46.90628744999999pt height=21.18721440000001pt/> to the free variables and solve for <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>
+  and <img src="/tex/2c52641cc5fa73cbbdf887c89d82f0de.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>.  Note <img src="/tex/bda947926e3a56a7e1f79bf2d7d9c985.svg?invert_in_darkmode&sanitize=true" align=middle width=46.90628744999999pt height=21.18721440000001pt/> and <img src="/tex/6815dc5c67a03ae13e30eb0b4a95d2c7.svg?invert_in_darkmode&sanitize=true" align=middle width=59.69172164999999pt height=21.18721440000001pt/> after back subbing.  This is anonter
   vector in the nullspace and any multiple of it is in the nullspace.
 
 * Any linear combination of those two vectors are in the nullspace.  You'll get
   one vector in the nullspace for each free column.
 
-```
-                      -2            2
-nullspace(A) = c_1 *   1  +  c_2 *  0
-                       0           -2
-                       0            1
-```
+
+<p align="center"><img src="/tex/4b4c061ee1e6dca04e3b10b30dbf6075.svg?invert_in_darkmode&sanitize=true" align=middle width=238.32577065pt height=69.77169045pt/></p>
 
 * Paused at 16:30
 
