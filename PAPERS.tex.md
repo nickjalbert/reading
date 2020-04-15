@@ -11,12 +11,6 @@ $$
     \end{matrix}
 $$
 
-```
-1  2  2   2
-2  4  6   8
-3  6  8  10
-```
-
 * During elimination:
     * Nullspace does not change
     * Solutions do not change
@@ -25,11 +19,14 @@ $$
 
 * Result of elimination (U):
 
-```
-1  2  2  2
-0  0  2  4
-0  0  0  0
-```
+$$
+    \begin{matrix}
+    1 & 2 & 2 & 2 \\
+    0 & 0 & 2 & 4 \\
+    0 & 0 & 0 & 0 \\
+    \end{matrix}
+$$
+
 
 * No pivot in second column means it's free (a combo of other columns)
 
@@ -39,31 +36,29 @@ $$
 
 * Rank of matrix == pivots == 2 in this example.
 
-* You can solve `Ux=0`, same solutions as `Ax=0`
+* You can solve $Ux=0$, same solutions as $Ax=0$
 
 * 2 pivot columns, 2 free columns
 
 * You can assign any number to the free columns and then solve the equations
   for the pivots columns.
 
-* Assign `x_2 = 1` and `x_4 = 0` to the free variables and solve for `x_1` and
-  `x_3`.  Note `x_1=-2` and `x_3=0` after back subbing.  This is a vector in
+* Assign $x_2 = 1$ and $x_4 = 0$ to the free variables and solve for $x_1$ and
+  $x_3$.  Note $x_1=-2$ and $x_3=0$ after back subbing.  This is a vector in
   the nullspace and any multiple of it is in the nullspace.
 
 * You have two free variables, so you need another vector in the nullspace.
-  Now Assign `x_2 = 0` and `x_4 = 1` to the free variables and solve for `x_1`
-  and `x_3`.  Note `x_1=2` and `x_3=-2` after back subbing.  This is anonter
+  Now Assign $x_2 = 0$ and $x_4 = 1$ to the free variables and solve for $x_1$
+  and $x_3$.  Note $x_1=2$ and $x_3=-2$ after back subbing.  This is anonter
   vector in the nullspace and any multiple of it is in the nullspace.
 
 * Any linear combination of those two vectors are in the nullspace.  You'll get
   one vector in the nullspace for each free column.
 
-```
-                      -2            2
-nullspace(A) = c_1 *   1  +  c_2 *  0
-                       0           -2
-                       0            1
-```
+
+$$
+nullspace(A) = c_1 * \begin{matrix} -2 \\ 1 \\ 0 \\ 0 \\ \end{matrix} + c_2 * \begin{matrix} 2 \\ 0 \\ -2 \\ 1 \end{matrix}
+$$
 
 * Paused at 16:30
 
