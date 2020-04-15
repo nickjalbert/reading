@@ -55,7 +55,7 @@
 * Matrix <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> is the reduced row echelon form.  Use the pivots to clean up the
   rows above them and make pivots equal to 1. <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> for our above example is:
 
-<p align="center"><img src="/tex/6b98ef6f24496ed93d2680843e4c079b.svg?invert_in_darkmode&sanitize=true" align=middle width=150.21343755pt height=11.96348175pt/></p>
+<p align="center"><img src="/tex/3996f4c555bb4c4f6b7639c532f5bc6a.svg?invert_in_darkmode&sanitize=true" align=middle width=148.38691889999998pt height=59.1786591pt/></p>
 
 * Note the identity matrix <img src="/tex/21fd4e8eecd6bdf1a4d3d6bd1fb8d733.svg?invert_in_darkmode&sanitize=true" align=middle width=8.515988249999989pt height=22.465723500000017pt/> is mixed into the rref matrix <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/>.
 
