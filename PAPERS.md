@@ -1,7 +1,7 @@
 ## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
 ## Gilbert Strang
 
-* Use elimination to solve a 3x4 rectangular matrix (<img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>):
+* Use elimination to solve a <img src="/tex/5b4cf7163dd6f95ba26235a3efa57ac2.svg?invert_in_darkmode&sanitize=true" align=middle width=36.52961069999999pt height=21.18721440000001pt/> rectangular matrix (<img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>):
 
 <p align="center"><img src="/tex/bebe32224cc9eb809d4cdde8d74f24ac.svg?invert_in_darkmode&sanitize=true" align=middle width=128.76731835pt height=59.1786591pt/></p>
 
@@ -44,7 +44,7 @@
   one vector in the nullspace for each free column.
 
 
-<p align="center"><img src="/tex/5f83f0b1197881e1276d626ea6ad91b3.svg?invert_in_darkmode&sanitize=true" align=middle width=315.03822405pt height=78.9048876pt/></p>
+<p align="center"><img src="/tex/3ad9826765c086ec4a1bc169dc595cd6.svg?invert_in_darkmode&sanitize=true" align=middle width=315.03822405pt height=78.9048876pt/></p>
 
 * Rank is equal to the pivot variable count.  Free variables is <img src="/tex/f7ac410dd4413138a6d3f58028ae8c58.svg?invert_in_darkmode&sanitize=true" align=middle width=42.566541599999994pt height=22.465723500000017pt/> for an
   <img src="/tex/205995f88b807b2f5268f7ef4053f049.svg?invert_in_darkmode&sanitize=true" align=middle width=44.39116769999999pt height=19.1781018pt/> matrix.
@@ -52,18 +52,28 @@
 * Finding the nullspace: Do elimination.  Set each free variable to one (and
   others to zero) and solve for a vector in the nullspace.
 
-* Matrix <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> is the reduced row echelon form.  Use the pivots to clean up the
-  rows above them and make pivots equal to 1. <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> for our above example is:
+* Matrix <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> is the reduced row echelon form (rref).  Use the pivots to clean
+  up the rows above them and make pivots equal to 1. <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> for our above example
+  is:
 
 <p align="center"><img src="/tex/7959c9d92984071c0784524172664d9f.svg?invert_in_darkmode&sanitize=true" align=middle width=133.33354319999998pt height=59.1786591pt/></p>
 
 * Note the identity matrix <img src="/tex/21fd4e8eecd6bdf1a4d3d6bd1fb8d733.svg?invert_in_darkmode&sanitize=true" align=middle width=8.515988249999989pt height=22.465723500000017pt/> is mixed into the rref matrix <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/>.
 
-* Typical rref looks like (I is identity matrix, F is free variables, the columns from I and F may be intermixed):
+* Typical rref looks like (I is identity matrix, F is free variables, the
+  columns from I and F may be intermixed, <img src="/tex/89f2e0d2d24bcf44db73aab8fc03252c.svg?invert_in_darkmode&sanitize=true" align=middle width=7.87295519999999pt height=14.15524440000002pt/> pivot rows AND columns, <img src="/tex/6705abc37a8daba2b601e9e9771af618.svg?invert_in_darkmode&sanitize=true" align=middle width=42.397246649999985pt height=19.1781018pt/>
+  free rows, <img src="/tex/bdc4fe24ac8ca702834e1744502f09d9.svg?invert_in_darkmode&sanitize=true" align=middle width=37.83102344999999pt height=19.1781018pt/> free columns):
 
 <p align="center"><img src="/tex/d344e8c92f231360ad6f867c8d6a6fb3.svg?invert_in_darkmode&sanitize=true" align=middle width=71.5982586pt height=39.452455349999994pt/></p>
 
-* Paused at 29:00
+* Nullspace matrix (<img src="/tex/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode&sanitize=true" align=middle width=14.99998994999999pt height=22.465723500000017pt/>) - columns are the special solutions. <img src="/tex/942733788955d96b64cf2a3ee7984e69.svg?invert_in_darkmode&sanitize=true" align=middle width=57.74527934999999pt height=22.465723500000017pt/>.
+
+<p align="center"><img src="/tex/26178984e148855d298b2eb3ed05b9c0.svg?invert_in_darkmode&sanitize=true" align=middle width=96.3469683pt height=39.452455349999994pt/></p>
+
+* I find this part of the lecture confusing.  He is composing matrices (<img src="/tex/b8bc815b5e9d5177af01fd4d3d3c2f10.svg?invert_in_darkmode&sanitize=true" align=middle width=12.85392569999999pt height=22.465723500000017pt/> and
+  <img src="/tex/21fd4e8eecd6bdf1a4d3d6bd1fb8d733.svg?invert_in_darkmode&sanitize=true" align=middle width=8.515988249999989pt height=22.465723500000017pt/>) that don't quite correspond to the example.
+
+* Rank of <img src="/tex/99f7812af37ee7004df7177a1e821ec5.svg?invert_in_darkmode&sanitize=true" align=middle width=21.86251649999999pt height=27.6567522pt/> is the same as <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>.  <img src="/tex/f14f60eb1a566660335ef95423c1d84f.svg?invert_in_darkmode&sanitize=true" align=middle width=50.469792449999986pt height=27.6567522pt/> is dimension 1 in our example.
 
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
 ### Rafal Bogacz
