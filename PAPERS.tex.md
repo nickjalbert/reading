@@ -1,7 +1,7 @@
 ## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
 ## Gilbert Strang
 
-* Use elimination to solve a 3x4 rectangular matrix ($A$):
+* Use elimination to solve a $3 \times 4$ rectangular matrix ($A$):
 
 $$
     \begin{bmatrix}
@@ -61,7 +61,24 @@ $$
 
 
 $$
-nullspace(A) = c_1 * \begin{bmatrix} \begin{array}{r} -2 \\ 1 \\ 0 \\ 0 \\ \end{array} \end{bmatrix} + c_2 * \begin{bmatrix} \begin{array}{r} 2 \\ 0 \\ -2 \\ 1 \end{array} \end{bmatrix}
+nullspace(A) = 
+    c_1 * \begin{bmatrix}
+            \begin{array}{r}
+                -2 \\
+                 1 \\ 
+                 0 \\ 
+                 0 \\ 
+            \end{array}
+          \end{bmatrix} 
+    + 
+    c_2 * \begin{bmatrix}
+            \begin{array}{r}
+                 2 \\
+                 0 \\
+                -2 \\ 
+                 1 \\
+            \end{array}
+          \end{bmatrix}
 $$
 
 * Rank is equal to the pivot variable count.  Free variables is $n-R$ for an
@@ -70,8 +87,9 @@ $$
 * Finding the nullspace: Do elimination.  Set each free variable to one (and
   others to zero) and solve for a vector in the nullspace.
 
-* Matrix $R$ is the reduced row echelon form.  Use the pivots to clean up the
-  rows above them and make pivots equal to 1. $R$ for our above example is:
+* Matrix $R$ is the reduced row echelon form (rref).  Use the pivots to clean
+  up the rows above them and make pivots equal to 1. $R$ for our above example
+  is:
 
 $$
     \begin{bmatrix}
@@ -85,7 +103,9 @@ $$
 
 * Note the identity matrix $I$ is mixed into the rref matrix $R$.
 
-* Typical rref looks like (I is identity matrix, F is free variables, the columns from I and F may be intermixed):
+* Typical rref looks like (I is identity matrix, F is free variables, the
+  columns from I and F may be intermixed, $r$ pivot rows AND columns, $m-r$
+  free rows, $n-r$ free columns):
 
 $$ 
     \begin{bmatrix}
@@ -96,7 +116,21 @@ $$
     \end{bmatrix}
 $$
 
-* Paused at 29:00
+* Nullspace matrix ($N$) - columns are the special solutions. $RN=0$.
+
+$$ 
+    N = \begin{bmatrix}
+            \begin{array}{rr}
+                -F \\
+                 I \\
+            \end{array}
+        \end{bmatrix}
+$$
+
+* I find this part of the lecture confusing.  He is composing matrices ($F$ and
+  $I$) that don't quite correspond to the example.
+
+* Rank of $A^T$ is the same as $A$.  $N(A^T)$ is dimension 1 in our example.
 
 ## [A tutorial on the free-energy framework for modelling perception and learning](https://www.sciencedirect.com/science/article/pii/S0022249615000759#bbr000050)
 ### Rafal Bogacz
