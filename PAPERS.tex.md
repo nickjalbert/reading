@@ -1,3 +1,58 @@
+## [Strang Lecture 8: Solving Ax = b: Row Reduced Form R](https://www.youtube.com/watch?v=9Q1q7s1jTzU)
+## Gilbert Strang
+
+* We'll reuse our example matrix to explore $Ax=b$:
+
+$$
+    \begin{bmatrix}
+        \begin{array}{rrrr}
+            1 & 2 & 2 &  2 \\
+            2 & 4 & 6 &  8 \\
+            3 & 6 & 8 & 10 \\
+        \end{array}
+    \end{bmatrix} = \begin{bmatrix} b_1 \\ b_2 \\ b_3 \end{bmatrix}
+$$
+
+* Let's use an augmented matrix to deal with the right hand side and do
+  elimination:
+
+$$
+    \begin{bmatrix}
+        \begin{array}{rrrr}
+            1 & 2 & 2 &  2 & b_1 \\
+            2 & 4 & 6 &  8 & b_2 \\
+            3 & 6 & 8 & 10 & b_3 \\
+        \end{array}
+    \end{bmatrix}
+$$
+
+* End up with, the condition for a solution is $0 = -b_1 - b_2 + b_3$
+  (e.g. $b = (1, 5, 6)$):
+
+$$
+    \begin{bmatrix}
+        \begin{array}{rrrr}
+            1 & 2 & 2 & 2 &   b_1             \\
+            0 & 0 & 2 & 4 & -2b_1 + b_2       \\ 
+            0 & 0 & 0 & 0 &  -b_1 - b_2 + b_3 \\
+        \end{array}
+    \end{bmatrix}
+$$
+
+* Solvability: a condition on $b$.  $Ax=b$ is solvable when $b$ is in the
+  columnspace of A, $C(A)$. Alternatively, if a combination of the rows of $A$
+  give the zero row, then the same combination of the components of $b$ have
+  to give a zero.
+
+* To find complete solution to $Ax=b$: 1) find a particular solution, then 2)
+  add in the nullspace.
+
+  * One way to find a particular solution: set all free variables to zero and
+    then solve for pivot variables.
+
+
+
+
 ## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
 ## Gilbert Strang
 
