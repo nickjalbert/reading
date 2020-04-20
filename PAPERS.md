@@ -1,5 +1,5 @@
 ## [Strang Lecture 8: Solving Ax = b: Row Reduced Form R](https://www.youtube.com/watch?v=9Q1q7s1jTzU)
-## Gilbert Strang
+### Gilbert Strang
 
 * We'll reuse our example matrix to explore <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/>:
 
@@ -49,15 +49,19 @@
   Each zero row will be an additional condition on <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/>.
 
 * Full row rank <img src="/tex/972a93691ff5ceb688f5e875b61f528d.svg?invert_in_darkmode&sanitize=true" align=middle width=44.22368609999999pt height=14.15524440000002pt/>: One or many solutions for every <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> (depending if
-  there are free variables.  There will be <img src="/tex/48d45f061bd81cbb30840cc309e2b25b.svg?invert_in_darkmode&sanitize=true" align=middle width=104.13982095pt height=19.1781018pt/> free variables). 
-  <img src="/tex/079bfec7814e7f4bcbae5a5e2830bb51.svg?invert_in_darkmode&sanitize=true" align=middle width=46.21760714999999pt height=17.723762100000005pt/> results in free variables. 
+  there are free variables.  There will be <img src="/tex/48d45f061bd81cbb30840cc309e2b25b.svg?invert_in_darkmode&sanitize=true" align=middle width=104.13982095pt height=19.1781018pt/> free variables). Matrix
+  will be short and fat.  <img src="/tex/079bfec7814e7f4bcbae5a5e2830bb51.svg?invert_in_darkmode&sanitize=true" align=middle width=46.21760714999999pt height=17.723762100000005pt/> results in free variables.
 
 * Full row and column rank <img src="/tex/c6578e573264528b0d6927ee0c7a1176.svg?invert_in_darkmode&sanitize=true" align=middle width=76.00819379999999pt height=14.15524440000002pt/>.  Square matrix and invertible, one
   solution for every b. Row reduced echelon form is the identity matrix.
 
+* If <img src="/tex/d65635677d427f79f5afec59fb1e8022.svg?invert_in_darkmode&sanitize=true" align=middle width=44.22368609999999pt height=17.723762100000005pt/> and <img src="/tex/797f7e1e586399c71e8b56b04c7af670.svg?invert_in_darkmode&sanitize=true" align=middle width=39.65746289999999pt height=17.723762100000005pt/>, then you will have 0 solutions (if the conditions of
+  the zero row are not satisifed) or infinite solutions if the conditions of
+  the zero row are satisfied.
+
 
 ## [Strang Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions](https://www.youtube.com/watch?v=VqP2tREMvt0)
-## Gilbert Strang
+### Gilbert Strang
 
 * Use elimination to solve a <img src="/tex/5b4cf7163dd6f95ba26235a3efa57ac2.svg?invert_in_darkmode&sanitize=true" align=middle width=36.52961069999999pt height=21.18721440000001pt/> rectangular matrix (<img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>):
 
