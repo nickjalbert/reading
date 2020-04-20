@@ -16,22 +16,22 @@
 <p align="center"><img src="/tex/7674c536bef5a14fa02044732a703cdc.svg?invert_in_darkmode&sanitize=true" align=middle width=233.24198205pt height=59.1786591pt/></p>
 
 * Solvability: a condition on <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/>.  <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/> is solvable when <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> is in the
-  columnspace of A, <img src="/tex/34e5f1f13b2812eee1b9520c4affa446.svg?invert_in_darkmode&sanitize=true" align=middle width=38.038868999999984pt height=24.65753399999998pt/>. Alternatively, if a combination of the rows of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>
-  give the zero row, then the same combination of the components of <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> have
-  to give a zero.
+  columnspace of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>, <img src="/tex/34e5f1f13b2812eee1b9520c4affa446.svg?invert_in_darkmode&sanitize=true" align=middle width=38.038868999999984pt height=24.65753399999998pt/>. Alternatively, if a combination of the rows of
+  <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> give the zero row, then the same combination of the components of <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/>
+  have to give a zero.
 
 * To find complete solution to <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/>: 
 
   * Find a particular solution. One way to find a particular solution: set all
     free variables to zero and then solve for pivot variables.  
 
-<p align="center"><img src="/tex/e0b344672f2f569e5b9e70eba66ff906.svg?invert_in_darkmode&sanitize=true" align=middle width=81.8335023pt height=78.9048876pt/></p>
+  <p align="center"><img src="/tex/66353f1a5b87732cd29c2eedf9038417.svg?invert_in_darkmode&sanitize=true" align=middle width=98.27185829999999pt height=78.9048876pt/></p>
 
   * Add in the nullspace <img src="/tex/d7084ce258ffe96f77e4f3647b250bbf.svg?invert_in_darkmode&sanitize=true" align=middle width=17.521011749999992pt height=14.15524440000002pt/>.  
 
 * The complete solution to <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/> is <img src="/tex/2bc7a0501b098605f46d03e2abb36260.svg?invert_in_darkmode&sanitize=true" align=middle width=139.20797055pt height=19.1781018pt/>
 
-<p align="center"><img src="/tex/c325537370d1c7e6281b08f3cf0c62e9.svg?invert_in_darkmode&sanitize=true" align=middle width=312.8596251pt height=78.9048876pt/></p>
+<p align="center"><img src="/tex/7d1c3d5098bbd5ef0b0b9a50ff2f79c4.svg?invert_in_darkmode&sanitize=true" align=middle width=362.17469475pt height=78.9048876pt/></p>
 
 
 
