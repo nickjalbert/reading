@@ -20,12 +20,19 @@
   give the zero row, then the same combination of the components of <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> have
   to give a zero.
 
-* To find complete solution to <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/>: 1) find a particular solution, then 2)
-  add in the nullspace.
+* To find complete solution to <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/>: 
 
-  * One way to find a particular solution: set all free variables to zero and
-    then solve for pivot variables.
-    $x_p = \begin{bmatrix} -2 \\ 0 \\ \frac{3}{2} \\ 0 \end{bmatrix}$
+  * Find a particular solution. One way to find a particular solution: set all
+    free variables to zero and then solve for pivot variables.  
+
+<p align="center"><img src="/tex/e0b344672f2f569e5b9e70eba66ff906.svg?invert_in_darkmode&sanitize=true" align=middle width=81.8335023pt height=78.9048876pt/></p>
+
+  * Add in the nullspace <img src="/tex/d7084ce258ffe96f77e4f3647b250bbf.svg?invert_in_darkmode&sanitize=true" align=middle width=17.521011749999992pt height=14.15524440000002pt/>.  
+
+* The complete solution to <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/> is <img src="/tex/2bc7a0501b098605f46d03e2abb36260.svg?invert_in_darkmode&sanitize=true" align=middle width=139.20797055pt height=19.1781018pt/>
+
+<p align="center"><img src="/tex/c325537370d1c7e6281b08f3cf0c62e9.svg?invert_in_darkmode&sanitize=true" align=middle width=312.8596251pt height=78.9048876pt/></p>
+
 
 
 
