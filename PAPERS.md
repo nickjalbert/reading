@@ -8,12 +8,12 @@
 * Let's use an augmented matrix to deal with the right hand side and do
   elimination:
 
-<p align="center"><img src="/tex/267497bf6cf3efddafe8661d67ed7ca3.svg?invert_in_darkmode&sanitize=true" align=middle width=134.97735405pt height=118.35734295pt/></p>
+<p align="center"><img src="/tex/4545a8ad84c6167498141eb954e12ead.svg?invert_in_darkmode&sanitize=true" align=middle width=159.6349128pt height=59.1786591pt/></p>
 
 * End up with, the condition for a solution is <img src="/tex/225d150b596970a35004bd81427462a5.svg?invert_in_darkmode&sanitize=true" align=middle width=125.57051265pt height=22.831056599999986pt/>
   (e.g. <img src="/tex/5f5355935f9d9f19d9ddc9f2bf9b91fc.svg?invert_in_darkmode&sanitize=true" align=middle width=81.02725454999998pt height=24.65753399999998pt/>):
 
-<p align="center"><img src="/tex/6a14125fbc0a54b6c29283808fea7b03.svg?invert_in_darkmode&sanitize=true" align=middle width=208.58442165pt height=118.35734295pt/></p>
+<p align="center"><img src="/tex/7674c536bef5a14fa02044732a703cdc.svg?invert_in_darkmode&sanitize=true" align=middle width=233.24198205pt height=59.1786591pt/></p>
 
 * Solvability: a condition on <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/>.  <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/> is solvable when <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> is in the
   columnspace of A, <img src="/tex/34e5f1f13b2812eee1b9520c4affa446.svg?invert_in_darkmode&sanitize=true" align=middle width=38.038868999999984pt height=24.65753399999998pt/>. Alternatively, if a combination of the rows of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>
