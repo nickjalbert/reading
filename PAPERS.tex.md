@@ -40,23 +40,25 @@ $$
 $$
 
 * Solvability: a condition on $b$.  $Ax=b$ is solvable when $b$ is in the
-  columnspace of A, $C(A)$. Alternatively, if a combination of the rows of $A$
-  give the zero row, then the same combination of the components of $b$ have
-  to give a zero.
+  columnspace of $A$, $C(A)$. Alternatively, if a combination of the rows of
+  $A$ give the zero row, then the same combination of the components of $b$
+  have to give a zero.
 
 * To find complete solution to $Ax=b$: 
 
   * Find a particular solution. One way to find a particular solution: set all
     free variables to zero and then solve for pivot variables.  
 
-$$ 
+  $$ 
     x_p = \begin{bmatrix} 
+          \begin{array}{r}
                        -2  \\ 
                         0  \\ 
                \frac{3}{2} \\ 
                         0  \\
-             \end{bmatrix} 
-$$
+          \end{array} 
+          \end{bmatrix} 
+  $$
 
   * Add in the nullspace $x_n$.  
 
@@ -66,24 +68,30 @@ $$
 
 x_{complete} =
     \begin{bmatrix} 
+    \begin{array}{r} 
               -2  \\ 
                0  \\ 
       \frac{3}{2} \\ 
                0  \\
+    \end{array}
     \end{bmatrix}  + 
     c_1 * 
     \begin{bmatrix} 
+    \begin{array}{r} 
       -2 \\ 
        1 \\ 
        0 \\  
        0 \\
+    \end{array}
     \end{bmatrix}  + 
     c_2 * 
     \begin{bmatrix} 
+    \begin{array}{r} 
       -2 \\ 
        0 \\ 
        2 \\  
        1 \\
+    \end{array}
     \end{bmatrix}
 $$
 
