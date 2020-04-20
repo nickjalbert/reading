@@ -44,12 +44,49 @@ $$
   give the zero row, then the same combination of the components of $b$ have
   to give a zero.
 
-* To find complete solution to $Ax=b$: 1) find a particular solution, then 2)
-  add in the nullspace.
+* To find complete solution to $Ax=b$: 
 
-  * One way to find a particular solution: set all free variables to zero and
-    then solve for pivot variables.
-    $x_p = \begin{bmatrix} -2 \\ 0 \\ \frac{3}{2} \\ 0 \end{bmatrix}$
+  * Find a particular solution. One way to find a particular solution: set all
+    free variables to zero and then solve for pivot variables.  
+
+$$ 
+    x_p = \begin{bmatrix} 
+                       -2  \\ 
+                        0  \\ 
+               \frac{3}{2} \\ 
+                        0  \\
+             \end{bmatrix} 
+$$
+
+  * Add in the nullspace $x_n$.  
+
+* The complete solution to $Ax=b$ is $ x_{complete} = x_p + x_n $
+
+$$
+
+x_{complete} =
+    \begin{bmatrix} 
+              -2  \\ 
+               0  \\ 
+      \frac{3}{2} \\ 
+               0  \\
+    \end{bmatrix}  + 
+    c_1 * 
+    \begin{bmatrix} 
+      -2 \\ 
+       1 \\ 
+       0 \\  
+       0 \\
+    \end{bmatrix}  + 
+    c_2 * 
+    \begin{bmatrix} 
+      -2 \\ 
+       0 \\ 
+       2 \\  
+       1 \\
+    \end{bmatrix}
+$$
+
 
 
 
