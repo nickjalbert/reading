@@ -18,7 +18,7 @@ $$
 
 $$
     \begin{bmatrix}
-        \begin{array}{rrrr}
+        \begin{array}{rrrrr}
             1 & 2 & 2 &  2 & b_1 \\
             2 & 4 & 6 &  8 & b_2 \\
             3 & 6 & 8 & 10 & b_3 \\
@@ -31,7 +31,7 @@ $$
 
 $$
     \begin{bmatrix}
-        \begin{array}{rrrr}
+        \begin{array}{rrrrr}
             1 & 2 & 2 & 2 &   b_1             \\
             0 & 0 & 2 & 4 & -2b_1 + b_2       \\ 
             0 & 0 & 0 & 0 &  -b_1 - b_2 + b_3 \\
