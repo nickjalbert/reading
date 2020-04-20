@@ -49,7 +49,7 @@ $$
 
   * One way to find a particular solution: set all free variables to zero and
     then solve for pivot variables.
-    $x_p = \begin{bmatrix} -2 \\ 0 \\ \frac{3}{2} \\ 0 \end{bmatrix}
+    $x_p = \begin{bmatrix} -2 \\ 0 \\ \frac{3}{2} \\ 0 \end{bmatrix}$
 
 
 
