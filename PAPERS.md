@@ -1,3 +1,30 @@
+## [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
+### Gilbert Strang
+
+* 4 fundamental subspaces (assume <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> is <img src="/tex/205995f88b807b2f5268f7ef4053f049.svg?invert_in_darkmode&sanitize=true" align=middle width=44.39116769999999pt height=19.1781018pt/>):
+    * Columnspace: $C(A)$ is in $R^m$
+    * Nullspace: $N(A)$ is in $R^n$
+    * Rowspace: all combinations the rows of $A$ (i.e. $C(A^T)$) is in $R^n$
+    * Left Nullspace: $N(A^T)$ is in $R^m$
+
+* Dimension of the subspaces:
+    * Columnspace: $rank(A)$
+    * Nullspace: $n - rank(A)$
+    * Rowspace: $rank(A)$
+    * Left Nullspace: $m - rank(A)$
+
+* Note the sum of the dimensions of the nullspace and rowspace give <img src="/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> (and
+  they are both in <img src="/tex/73915ecf85c52fbc3bf42267f60059e4.svg?invert_in_darkmode&sanitize=true" align=middle width=20.73449399999999pt height=22.465723500000017pt/>) and the sum of the dimensions of the columnspace and
+  left nullspace give <img src="/tex/0e51a2dede42189d77627c4d742822c3.svg?invert_in_darkmode&sanitize=true" align=middle width=14.433101099999991pt height=14.15524440000002pt/> (and they are both in <img src="/tex/10bbb5859fbc71ff8d85cbeac2b323ef.svg?invert_in_darkmode&sanitize=true" align=middle width=24.27331994999999pt height=22.465723500000017pt/>).
+
+* How to produce a basis for each subspace:
+    * Columnspace: row reduction, use the original vectors that correspond to
+      the pivot columns.
+    * Nullspace: set each free variable to 1 (and others to zero) to find basis
+      vectors (i.e. find the special solutions).
+    * Rowspace: the pivot rows directly after getting $A$ into rref.
+    * Left Nullspace: row reduce $A^T$ and find the special solutions.
+
 ## [Strang Lecture 9: Independence, Basis and Dimension](https://www.youtube.com/watch?v=yjBerM5jWsc)
 ### Gilbert Strang
 
