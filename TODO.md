@@ -31,5 +31,4 @@
 
 ## Linear Algebra
 
-* [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
 * [3.1 Matrix Transformations](https://textbooks.math.gatech.edu/ila/matrix-transformations.html)
