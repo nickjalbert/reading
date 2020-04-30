@@ -2,28 +2,28 @@
 ### Gilbert Strang
 
 * 4 fundamental subspaces (assume <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> is <img src="/tex/205995f88b807b2f5268f7ef4053f049.svg?invert_in_darkmode&sanitize=true" align=middle width=44.39116769999999pt height=19.1781018pt/>):
-    * Columnspace: $C(A)$ is in $R^m$
-    * Nullspace: $N(A)$ is in $R^n$
-    * Rowspace: all combinations the rows of $A$ (i.e. $C(A^T)$) is in $R^n$
-    * Left Nullspace: $N(A^T)$ is in $R^m$
+  * Columnspace: <img src="/tex/34e5f1f13b2812eee1b9520c4affa446.svg?invert_in_darkmode&sanitize=true" align=middle width=38.038868999999984pt height=24.65753399999998pt/> is in <img src="/tex/10bbb5859fbc71ff8d85cbeac2b323ef.svg?invert_in_darkmode&sanitize=true" align=middle width=24.27331994999999pt height=22.465723500000017pt/>
+  * Nullspace: <img src="/tex/b1254f33d689433f6a0588c2d401f1c9.svg?invert_in_darkmode&sanitize=true" align=middle width=40.11420104999999pt height=24.65753399999998pt/> is in <img src="/tex/73915ecf85c52fbc3bf42267f60059e4.svg?invert_in_darkmode&sanitize=true" align=middle width=20.73449399999999pt height=22.465723500000017pt/>
+  * Rowspace: all combinations the rows of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> (i.e. <img src="/tex/295c58fc21b40e5fc782651c6e6d3af2.svg?invert_in_darkmode&sanitize=true" align=middle width=48.39446204999999pt height=27.6567522pt/>) is in <img src="/tex/73915ecf85c52fbc3bf42267f60059e4.svg?invert_in_darkmode&sanitize=true" align=middle width=20.73449399999999pt height=22.465723500000017pt/>
+  * Left Nullspace: <img src="/tex/f14f60eb1a566660335ef95423c1d84f.svg?invert_in_darkmode&sanitize=true" align=middle width=50.469792449999986pt height=27.6567522pt/> is in <img src="/tex/10bbb5859fbc71ff8d85cbeac2b323ef.svg?invert_in_darkmode&sanitize=true" align=middle width=24.27331994999999pt height=22.465723500000017pt/>
 
 * Dimension of the subspaces:
-    * Columnspace: $rank(A)$
-    * Nullspace: $n - rank(A)$
-    * Rowspace: $rank(A)$
-    * Left Nullspace: $m - rank(A)$
+  * Columnspace: <img src="/tex/cdc45231ecb69a0453183503bf5d0f94.svg?invert_in_darkmode&sanitize=true" align=middle width=60.61857944999999pt height=24.65753399999998pt/>
+  * Nullspace: <img src="/tex/72df1852be8011a748586479c025c3f1.svg?invert_in_darkmode&sanitize=true" align=middle width=90.5766477pt height=24.65753399999998pt/>
+  * Rowspace: <img src="/tex/cdc45231ecb69a0453183503bf5d0f94.svg?invert_in_darkmode&sanitize=true" align=middle width=60.61857944999999pt height=24.65753399999998pt/>
+  * Left Nullspace: <img src="/tex/9c2d2e8db322d12b62be0f80789bde97.svg?invert_in_darkmode&sanitize=true" align=middle width=95.14287089999998pt height=24.65753399999998pt/>
 
 * Note the sum of the dimensions of the nullspace and rowspace give <img src="/tex/55a049b8f161ae7cfeb0197d75aff967.svg?invert_in_darkmode&sanitize=true" align=middle width=9.86687624999999pt height=14.15524440000002pt/> (and
   they are both in <img src="/tex/73915ecf85c52fbc3bf42267f60059e4.svg?invert_in_darkmode&sanitize=true" align=middle width=20.73449399999999pt height=22.465723500000017pt/>) and the sum of the dimensions of the columnspace and
   left nullspace give <img src="/tex/0e51a2dede42189d77627c4d742822c3.svg?invert_in_darkmode&sanitize=true" align=middle width=14.433101099999991pt height=14.15524440000002pt/> (and they are both in <img src="/tex/10bbb5859fbc71ff8d85cbeac2b323ef.svg?invert_in_darkmode&sanitize=true" align=middle width=24.27331994999999pt height=22.465723500000017pt/>).
 
 * How to produce a basis for each subspace:
-    * Columnspace: row reduction, use the original vectors that correspond to
-      the pivot columns.
-    * Nullspace: set each free variable to 1 (and others to zero) to find basis
-      vectors (i.e. find the special solutions).
-    * Rowspace: the pivot rows directly after getting $A$ into rref.
-    * Left Nullspace: row reduce $A^T$ and find the special solutions.
+  * Columnspace: row reduction, use the original vectors that correspond to
+    the pivot columns.
+  * Nullspace: set each free variable to 1 (and others to zero) to find basis
+    vectors (i.e. find the special solutions).
+  * Rowspace: the pivot rows directly after getting <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> into rref.
+  * Left Nullspace: row reduce <img src="/tex/99f7812af37ee7004df7177a1e821ec5.svg?invert_in_darkmode&sanitize=true" align=middle width=21.86251649999999pt height=27.6567522pt/> and find the special solutions.
 
 ## [Strang Lecture 9: Independence, Basis and Dimension](https://www.youtube.com/watch?v=yjBerM5jWsc)
 ### Gilbert Strang
