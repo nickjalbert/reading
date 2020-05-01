@@ -17,11 +17,23 @@ cognitive architectures, AI, and related topics.
 ### Ongoing
 * [The free-energy principle: a unified brain theory?](https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf)
 
+### Meeting 12 (Monday, May 4, 2020)
+
+* [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?&v=YzZUIYRCE38)
+* Read and feedback on Andy's agentos proposal
+* Start mouse simulator work: implement inference on two+ timescales (e.g. phi vs v_p).
+
+
+### Meeting 11 (Thursday, April 30, 2020)
+
+* [Strang Lecture 9: Independence, Basis and Dimension](https://www.youtube.com/watch?v=yjBerM5jWsc)
+* [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
+* Discuss mouse simulator next steps
+
 ### Meeting 10 (Wednesday, April 22, 2020)
 
 * Figure out where the dynamical eqns from exercise 3 come from.
 * Finish section 2 in tutorial.
-* [Strang Lecture 9: Independence, Basis and Dimension](https://www.youtube.com/watch?v=yjBerM5jWsc)
 * Discuss what more applied engineering here looks like.
 
 
