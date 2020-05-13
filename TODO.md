@@ -33,3 +33,8 @@
 ## Linear Algebra
 
 * [3.1 Matrix Transformations](https://textbooks.math.gatech.edu/ila/matrix-transformations.html)
+
+## Jakey suggestions
+
+* [Online Learning with Kernels](http://users.cecs.anu.edu.au/~williams/papers/P172.pdf)
+* [Kernel Methods in Machine Learning](http://www.kernel-machines.org/publications/pdfs/0701907.pdf)
