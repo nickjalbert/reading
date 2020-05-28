@@ -7,21 +7,23 @@
 * Orthogonal - in N-dimensional space, the angle between vectors is 90 degrees.
 
 * Test for orthogonality - two vectors are orthogonal if the dot product
-  ($x^ty$) is zero.
+  ($x^Ty$) is zero.
 
 * Shows the connection between the Pythagorean theorem and orthogonality.  
   * Pythagorean theorem: $|x|^2 + |y|^2 = |x+y|^2$
-  * Squared length of vector $x$: $x^tx$
+  * Squared length of vector $x$: $x^Tx$
   * When vectors are orthogonal (sub into Pythagorean): 
 
 $$
-x^tx + y^ty = (x+y)^t(x+y)
 
-x^tx + y^ty = x^tx + y^ty + x^ty + y^tx
+x^Tx + y^Ty = (x+y)^T(x+y)
 
-0 = 2x^ty
+x^Tx + y^Ty = x^Tx + y^Ty + x^Ty + y^Tx
 
-0 = x^ty
+0 = 2x^Ty
+
+0 = x^Ty
+
 $$
 
 * Zero vector is orthogonal to all vectors.
@@ -32,7 +34,6 @@ $$
 * Rowspace is orthogonal to the nullspace.  Why?
   * $Ax = 0$ defines the nullspace
   * Alternatively, you can think of it as:
-
 
 $$
     \begin{bmatrix}
@@ -52,10 +53,19 @@ $$
     \end{bmatrix}  =  \begin{bmatrix} 0 \\ 0 \\ ... \\ 0 \end{bmatrix}
 $$
 
+* Each row of $A$ is orthogonal to $x$ because that row multiplied by $x$
+  equals 0.
+  * You also have to show that $x$ is orthogonal to every linear combination of
+    the rows of $A$.
+  * If $c_1\text{row}_1^Tx = 0$ and $c_2\text{row}_2^T = 0$ then use 
+    distributive property to show that
+    $(c_1\text{row}_1 + c_2\text{row}_2)^T = 0_{ }$.
 
-
-
-
+* The rowspace and nullspace carve $R^n$ into two orthogonal subspaces.  The
+  columnspace and left nullspace do the same for $R^m$.  They are **orthogonal
+  complements** (the complements contain all the vectors in the space they
+  carve up).
+  * The nullspace contains **all** vectors perpendicular to the row space.
 
 
 
