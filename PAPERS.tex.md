@@ -10,14 +10,17 @@
   ($x^ty$) is zero.
 
 * Shows the connection between the Pythagorean theorem and orthogonality.  
-    * Pythagorean theorem: $|x|^2 + |y|^2 = |x+y|^2$
-    * Squared length of vector $x$: $x^tx$
-    * When vectors are orthogonal (sub into Pythagorean): 
+  * Pythagorean theorem: $|x|^2 + |y|^2 = |x+y|^2$
+  * Squared length of vector $x$: $x^tx$
+  * When vectors are orthogonal (sub into Pythagorean): 
 
 $$
 x^tx + y^ty = (x+y)^t(x+y)
+
 x^tx + y^ty = x^tx + y^ty + x^ty + y^tx
+
 0 = 2x^ty
+
 0 = x^ty
 $$
 
@@ -33,7 +36,7 @@ $$
 
 $$
     \begin{bmatrix}
-        \begin{array}{r}
+        \begin{array}{c}
             \text{row 1 of A} \\
             \text{row 2 of A} \\
             ... \\
@@ -46,9 +49,7 @@ $$
             ...  \\
             x_n  \\
         \end{array}
-    \end{bmatrix}  =  
-
-    \begin{bmatrix} 0 \\ 0 \\ ... \\ 0 \end{bmatrix}
+    \end{bmatrix}  =  \begin{bmatrix} 0 \\ 0 \\ ... \\ 0 \end{bmatrix}
 $$
 
 
