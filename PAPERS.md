@@ -10,11 +10,11 @@
   (<img src="/tex/9cf24e61280c33b72c9f53c9780ba13a.svg?invert_in_darkmode&sanitize=true" align=middle width=23.831900399999988pt height=26.085962100000025pt/>) is zero.
 
 * Shows the connection between the Pythagorean theorem and orthogonality.  
-    * Pythagorean theorem: $|x|^2 + |y|^2 = |x+y|^2$
-    * Squared length of vector $x$: $x^tx$
-    * When vectors are orthogonal (sub into Pythagorean): 
+  * Pythagorean theorem: <img src="/tex/0020492d10a7da15fd6f957fe4bae301.svg?invert_in_darkmode&sanitize=true" align=middle width=146.88721244999996pt height=26.76175259999998pt/>
+  * Squared length of vector <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>: <img src="/tex/92e17afe79670c38099cba5a300f423a.svg?invert_in_darkmode&sanitize=true" align=middle width=24.57766409999999pt height=26.085962100000025pt/>
+  * When vectors are orthogonal (sub into Pythagorean): 
 
-<p align="center"><img src="/tex/be455334cb1c3278365e96c0d76b0e72.svg?invert_in_darkmode&sanitize=true" align=middle width=558.732273pt height=17.9744895pt/></p>
+<p align="center"><img src="/tex/51efb7b826637ec51e2f2c93ef3321bb.svg?invert_in_darkmode&sanitize=true" align=middle width=424.1304837pt height=86.102346pt/></p>
 
 * Zero vector is orthogonal to all vectors.
 
@@ -26,7 +26,7 @@
     * Alternatively, you can think of it as:
 
 
-<p align="center"><img src="/tex/10643575ae5fbf6afc743a79c18a6472.svg?invert_in_darkmode&sanitize=true" align=middle width=430.33586475pt height=169.31659799999997pt/></p>
+<p align="center"><img src="/tex/dab38e23e6b733bab3580086060e1bf5.svg?invert_in_darkmode&sanitize=true" align=middle width=249.89546174999998pt height=78.9048876pt/></p>
 
 
 
