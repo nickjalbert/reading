@@ -1,3 +1,63 @@
+## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
+### Gilbert Strang
+
+* The rowspace and nullspace are orthogonal (the angle between them is 90
+  degrees).  Same for the columnspace and the left nullspace.
+
+* Orthogonal - in N-dimensional space, the angle between vectors is 90 degrees.
+
+* Test for orthogonality - two vectors are orthogonal if the dot product
+  ($x^ty$) is zero.
+
+* Shows the connection between the Pythagorean theorem and orthogonality.  
+    * Pythagorean theorem: $|x|^2 + |y|^2 = |x+y|^2$
+    * Squared length of vector $x$: $x^tx$
+    * When vectors are orthogonal (sub into Pythagorean): 
+
+$$
+x^tx + y^ty = (x+y)^t(x+y)
+x^tx + y^ty = x^tx + y^ty + x^ty + y^tx
+0 = 2x^ty
+0 = x^ty
+$$
+
+* Zero vector is orthogonal to all vectors.
+
+* Subspace $S$ is orthogonal to subspace $T$ when every vector in $S$ is
+  orthogonal to every vector in $T$.
+
+* Rowspace is orthogonal to the nullspace.  Why?
+    * $Ax = 0$ defines the nullspace
+    * Alternatively, you can think of it as:
+
+
+$$
+    \begin{bmatrix}
+        \begin{array}{r}
+            \text{row 1 of A} \\
+            \text{row 2 of A} \\
+            ... \\
+            \text{row m of A} \\
+        \end{array}
+    \end{bmatrix} * 
+    \begin{bmatrix}
+        \begin{array}{r}
+            x_1  \\
+            ...  \\
+            x_n  \\
+        \end{array}
+    \end{bmatrix}  =  
+
+    \begin{bmatrix} 0 \\ 0 \\ ... \\ 0 \end{bmatrix}
+$$
+
+
+
+
+
+
+
+
 ## [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
 ### Gilbert Strang
 
