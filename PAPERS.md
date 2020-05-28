@@ -1,3 +1,40 @@
+## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
+### Gilbert Strang
+
+* The rowspace and nullspace are orthogonal (the angle between them is 90
+  degrees).  Same for the columnspace and the left nullspace.
+
+* Orthogonal - in N-dimensional space, the angle between vectors is 90 degrees.
+
+* Test for orthogonality - two vectors are orthogonal if the dot product
+  (<img src="/tex/9cf24e61280c33b72c9f53c9780ba13a.svg?invert_in_darkmode&sanitize=true" align=middle width=23.831900399999988pt height=26.085962100000025pt/>) is zero.
+
+* Shows the connection between the Pythagorean theorem and orthogonality.  
+    * Pythagorean theorem: $|x|^2 + |y|^2 = |x+y|^2$
+    * Squared length of vector $x$: $x^tx$
+    * When vectors are orthogonal (sub into Pythagorean): 
+
+<p align="center"><img src="/tex/be455334cb1c3278365e96c0d76b0e72.svg?invert_in_darkmode&sanitize=true" align=middle width=558.732273pt height=17.9744895pt/></p>
+
+* Zero vector is orthogonal to all vectors.
+
+* Subspace <img src="/tex/e257acd1ccbe7fcb654708f1a866bfe9.svg?invert_in_darkmode&sanitize=true" align=middle width=11.027402099999989pt height=22.465723500000017pt/> is orthogonal to subspace <img src="/tex/2f118ee06d05f3c2d98361d9c30e38ce.svg?invert_in_darkmode&sanitize=true" align=middle width=11.889314249999991pt height=22.465723500000017pt/> when every vector in <img src="/tex/e257acd1ccbe7fcb654708f1a866bfe9.svg?invert_in_darkmode&sanitize=true" align=middle width=11.027402099999989pt height=22.465723500000017pt/> is
+  orthogonal to every vector in <img src="/tex/2f118ee06d05f3c2d98361d9c30e38ce.svg?invert_in_darkmode&sanitize=true" align=middle width=11.889314249999991pt height=22.465723500000017pt/>.
+
+* Rowspace is orthogonal to the nullspace.  Why?
+    * $Ax = 0$ defines the nullspace
+    * Alternatively, you can think of it as:
+
+
+<p align="center"><img src="/tex/10643575ae5fbf6afc743a79c18a6472.svg?invert_in_darkmode&sanitize=true" align=middle width=430.33586475pt height=169.31659799999997pt/></p>
+
+
+
+
+
+
+
+
 ## [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
 ### Gilbert Strang
 
