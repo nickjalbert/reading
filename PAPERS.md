@@ -7,14 +7,14 @@
 * Orthogonal - in N-dimensional space, the angle between vectors is 90 degrees.
 
 * Test for orthogonality - two vectors are orthogonal if the dot product
-  (<img src="/tex/9cf24e61280c33b72c9f53c9780ba13a.svg?invert_in_darkmode&sanitize=true" align=middle width=23.831900399999988pt height=26.085962100000025pt/>) is zero.
+  (<img src="/tex/835f8d843b2e8684eb2db4c5330cbfd1.svg?invert_in_darkmode&sanitize=true" align=middle width=28.399804949999993pt height=27.6567522pt/>) is zero.
 
 * Shows the connection between the Pythagorean theorem and orthogonality.  
   * Pythagorean theorem: <img src="/tex/0020492d10a7da15fd6f957fe4bae301.svg?invert_in_darkmode&sanitize=true" align=middle width=146.88721244999996pt height=26.76175259999998pt/>
-  * Squared length of vector <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>: <img src="/tex/92e17afe79670c38099cba5a300f423a.svg?invert_in_darkmode&sanitize=true" align=middle width=24.57766409999999pt height=26.085962100000025pt/>
+  * Squared length of vector <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>: <img src="/tex/71e959d58d2486c3eb2942a9177b20f6.svg?invert_in_darkmode&sanitize=true" align=middle width=29.14556864999999pt height=27.6567522pt/>
   * When vectors are orthogonal (sub into Pythagorean): 
 
-<p align="center"><img src="/tex/51efb7b826637ec51e2f2c93ef3321bb.svg?invert_in_darkmode&sanitize=true" align=middle width=424.1304837pt height=86.102346pt/></p>
+<p align="center"><img src="/tex/40c0cc53edc6552d83b24e1e7988d9cb.svg?invert_in_darkmode&sanitize=true" align=middle width=271.9619727pt height=76.202808pt/></p>
 
 * Zero vector is orthogonal to all vectors.
 
@@ -25,13 +25,21 @@
   * <img src="/tex/1ee1e21dada7761855899433bd89f236.svg?invert_in_darkmode&sanitize=true" align=middle width=51.86062694999999pt height=22.465723500000017pt/> defines the nullspace
   * Alternatively, you can think of it as:
 
-
 <p align="center"><img src="/tex/dab38e23e6b733bab3580086060e1bf5.svg?invert_in_darkmode&sanitize=true" align=middle width=249.89546174999998pt height=78.9048876pt/></p>
 
+* Each row of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> is orthogonal to <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> because that row multiplied by <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>
+  equals 0.
+  * You also have to show that <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> is orthogonal to every linear combination of
+    the rows of $A$.
+  * If <img src="/tex/d3640f47b400f5f568d7920beea97886.svg?invert_in_darkmode&sanitize=true" align=middle width=90.44877434999998pt height=27.6567522pt/> and <img src="/tex/a387aee3908b9bf388a76f7295e4e7e1.svg?invert_in_darkmode&sanitize=true" align=middle width=81.05378654999998pt height=27.6567522pt/> then use 
+    distributive property to show that
+    $(c_1\text{row}_1 + c_2\text{row}_2)^T = 0_{ }$.
 
-
-
-
+* The rowspace and nullspace carve <img src="/tex/73915ecf85c52fbc3bf42267f60059e4.svg?invert_in_darkmode&sanitize=true" align=middle width=20.73449399999999pt height=22.465723500000017pt/> into two orthogonal subspaces.  The
+  columnspace and left nullspace do the same for <img src="/tex/10bbb5859fbc71ff8d85cbeac2b323ef.svg?invert_in_darkmode&sanitize=true" align=middle width=24.27331994999999pt height=22.465723500000017pt/>.  They are **orthogonal
+  complements** (the complements contain all the vectors in the space they
+  carve up).
+  * The nullspace contains **all** vectors perpendicular to the row space.
 
 
 
