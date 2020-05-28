@@ -57,9 +57,7 @@ $$
   equals 0.
   * You also have to show that $x$ is orthogonal to every linear combination of
     the rows of $A$.
-  * If $c_1\text{row}_1^Tx = 0$ and $c_2\text{row}_2^T = 0$ then use 
-    distributive property to show that
-    $(c_1\text{row}_1 + c_2\text{row}_2)^T = 0_{ }$.
+  * If $c_1\text{row}_1^Tx = 0$ and $c_2\text{row}_2^T = 0$ then use distributive property to show that $(c_1\text{row}_1 + c_2\text{row}_2)^T = 0_{ }$.
 
 * The rowspace and nullspace carve $R^n$ into two orthogonal subspaces.  The
   columnspace and left nullspace do the same for $R^m$.  They are **orthogonal
