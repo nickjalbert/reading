@@ -31,9 +31,7 @@
   equals 0.
   * You also have to show that <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> is orthogonal to every linear combination of
     the rows of $A$.
-  * If <img src="/tex/d3640f47b400f5f568d7920beea97886.svg?invert_in_darkmode&sanitize=true" align=middle width=90.44877434999998pt height=27.6567522pt/> and <img src="/tex/a387aee3908b9bf388a76f7295e4e7e1.svg?invert_in_darkmode&sanitize=true" align=middle width=81.05378654999998pt height=27.6567522pt/> then use 
-    distributive property to show that
-    $(c_1\text{row}_1 + c_2\text{row}_2)^T = 0_{ }$.
+  * If <img src="/tex/d3640f47b400f5f568d7920beea97886.svg?invert_in_darkmode&sanitize=true" align=middle width=90.44877434999998pt height=27.6567522pt/> and <img src="/tex/a387aee3908b9bf388a76f7295e4e7e1.svg?invert_in_darkmode&sanitize=true" align=middle width=81.05378654999998pt height=27.6567522pt/> then use distributive property to show that <img src="/tex/918a422a2e4009bf075cef9360db6ea4.svg?invert_in_darkmode&sanitize=true" align=middle width=169.24068479999997pt height=27.6567522pt/>.
 
 * The rowspace and nullspace carve <img src="/tex/73915ecf85c52fbc3bf42267f60059e4.svg?invert_in_darkmode&sanitize=true" align=middle width=20.73449399999999pt height=22.465723500000017pt/> into two orthogonal subspaces.  The
   columnspace and left nullspace do the same for <img src="/tex/10bbb5859fbc71ff8d85cbeac2b323ef.svg?invert_in_darkmode&sanitize=true" align=middle width=24.27331994999999pt height=22.465723500000017pt/>.  They are **orthogonal
