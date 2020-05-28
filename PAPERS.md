@@ -42,7 +42,17 @@
   carve up).
   * The nullspace contains **all** vectors perpendicular to the row space.
 
+* Up next: solve <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/> when there is no solutions.
+* Consider <img src="/tex/4a90a521023b2e61f36dc36d23846cb5.svg?invert_in_darkmode&sanitize=true" align=middle width=35.01318974999999pt height=27.6567522pt/> (where <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> is <img src="/tex/205995f88b807b2f5268f7ef4053f049.svg?invert_in_darkmode&sanitize=true" align=middle width=44.39116769999999pt height=19.1781018pt/>):
+  * It's square <img src="/tex/3add1221abfa79cb14021bc2dacd5725.svg?invert_in_darkmode&sanitize=true" align=middle width=39.82494449999999pt height=19.1781018pt/>
+  * It's symmetric: <img src="/tex/68ac6c189cb6071cd258e8d987eefd41.svg?invert_in_darkmode&sanitize=true" align=middle width=191.90512274999998pt height=27.6567522pt/>
 
+* The "good" equation used for solving <img src="/tex/6ffa573707fca115cad7b243d91a7109.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/> when their is not solution is
+  achieved by multiplying both sides by <img src="/tex/99f7812af37ee7004df7177a1e821ec5.svg?invert_in_darkmode&sanitize=true" align=middle width=21.86251649999999pt height=27.6567522pt/> to get <img src="/tex/1210dd4ad39a067584505367e08fb1ae.svg?invert_in_darkmode&sanitize=true" align=middle width=96.06499484999999pt height=27.6567522pt/>.
+
+* The nullspace of <img src="/tex/4a90a521023b2e61f36dc36d23846cb5.svg?invert_in_darkmode&sanitize=true" align=middle width=35.01318974999999pt height=27.6567522pt/> equals the nullspace of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>.
+* The rank of <img src="/tex/4a90a521023b2e61f36dc36d23846cb5.svg?invert_in_darkmode&sanitize=true" align=middle width=35.01318974999999pt height=27.6567522pt/> equals the rank of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/>.
+* <img src="/tex/4a90a521023b2e61f36dc36d23846cb5.svg?invert_in_darkmode&sanitize=true" align=middle width=35.01318974999999pt height=27.6567522pt/> is invertible exactly if <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> has independent columns.
 
 ## [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
 ### Gilbert Strang
