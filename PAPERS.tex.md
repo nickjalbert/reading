@@ -30,8 +30,8 @@ $$
   orthogonal to every vector in $T$.
 
 * Rowspace is orthogonal to the nullspace.  Why?
-    * $Ax = 0$ defines the nullspace
-    * Alternatively, you can think of it as:
+  * $Ax = 0$ defines the nullspace
+  * Alternatively, you can think of it as:
 
 
 $$
