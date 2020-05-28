@@ -77,7 +77,7 @@ $$
   * It's square $n \times n$
   * It's symmetric: $(A^TA)^T = A^TA^{TT} = A^TA$
 
-* The "good" equation used for solving $Ax=b$ when their is not solution is
+* The "good" equation used for solving $Ax=b$ when there is no solution is
   achieved by multiplying both sides by $A^T$ to get $A^TAx=A^Tb$.
 
 * The nullspace of $A^TA$ equals the nullspace of $A$.
