@@ -22,8 +22,8 @@
   orthogonal to every vector in <img src="/tex/2f118ee06d05f3c2d98361d9c30e38ce.svg?invert_in_darkmode&sanitize=true" align=middle width=11.889314249999991pt height=22.465723500000017pt/>.
 
 * Rowspace is orthogonal to the nullspace.  Why?
-    * $Ax = 0$ defines the nullspace
-    * Alternatively, you can think of it as:
+  * <img src="/tex/1ee1e21dada7761855899433bd89f236.svg?invert_in_darkmode&sanitize=true" align=middle width=51.86062694999999pt height=22.465723500000017pt/> defines the nullspace
+  * Alternatively, you can think of it as:
 
 
 <p align="center"><img src="/tex/dab38e23e6b733bab3580086060e1bf5.svg?invert_in_darkmode&sanitize=true" align=middle width=249.89546174999998pt height=78.9048876pt/></p>
