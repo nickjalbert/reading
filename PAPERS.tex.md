@@ -72,7 +72,17 @@ $$
   carve up).
   * The nullspace contains **all** vectors perpendicular to the row space.
 
+* Up next: solve $Ax=b$ when there is no solutions.
+* Consider $A^TA$ (where $A$ is $m \times n$):
+  * It's square $n \times n$
+  * It's symmetric: $(A^TA)^T = A^TA^{TT} = A^TA$
 
+* The "good" equation used for solving $Ax=b$ when their is not solution is
+  achieved by multiplying both sides by $A^T$ to get $A^TAx=A^Tb$.
+
+* The nullspace of $A^TA$ equals the nullspace of $A$.
+* The rank of $A^TA$ equals the rank of $A$.
+* $A^TA$ is invertible exactly if $A$ has independent columns.
 
 ## [Strang Lecture 10: The Four Fundamental Subspaces](https://www.youtube.com/watch?v=nHlE7EgJFds)
 ### Gilbert Strang
