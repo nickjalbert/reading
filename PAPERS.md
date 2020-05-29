@@ -2,12 +2,12 @@
 ### Gilbert Strang
 
 * Starts with a 2D example of projecting a vector onto another vector.
-  * The projection <img src="/tex/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.270567249999992pt height=14.15524440000002pt/> of vector <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> onto vector <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/> is <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/> scaled by <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>
-  * The projection is scaled <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/>: <img src="/tex/1a0a58f01df90716af244df7792e474f.svg?invert_in_darkmode&sanitize=true" align=middle width=48.27233894999999pt height=14.15524440000002pt/>
+  * The projection <img src="/tex/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.270567249999992pt height=14.15524440000002pt/> of vector <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> onto vector <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/>
+  * The projection is <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/> scaled by <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>: <img src="/tex/1a0a58f01df90716af244df7792e474f.svg?invert_in_darkmode&sanitize=true" align=middle width=48.27233894999999pt height=14.15524440000002pt/>
   * Error is difference of projection <img src="/tex/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.270567249999992pt height=14.15524440000002pt/> and projected vector <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/>: <img src="/tex/5390b02b04468ab447462b98a934224f.svg?invert_in_darkmode&sanitize=true" align=middle width=45.23012999999998pt height=22.831056599999986pt/>
   * Error should be orthogonal to <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/>: <img src="/tex/5304279cb91cd467e15ed9c44359a30b.svg?invert_in_darkmode&sanitize=true" align=middle width=107.19715049999998pt height=27.6567522pt/>
   * Solve for <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>: <img src="/tex/246dd531380757227492d1786376da18.svg?invert_in_darkmode&sanitize=true" align=middle width=56.63571374999999pt height=34.099002299999995pt/>
-
+  * test <img src="/tex/929190449c1184e194d809b0ad7676d3.svg?invert_in_darkmode&sanitize=true" align=middle width=68.42063744999999pt height=19.1781018pt/>
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 ### Gilbert Strang
@@ -20,10 +20,10 @@
 * Test for orthogonality - two vectors are orthogonal if the dot product
   (<img src="/tex/835f8d843b2e8684eb2db4c5330cbfd1.svg?invert_in_darkmode&sanitize=true" align=middle width=28.399804949999993pt height=27.6567522pt/>) is zero.
 
-* Shows the connection between the Pythagorean theorem and orthogonality.  
+* Shows the connection between the Pythagorean theorem and orthogonality.
   * Pythagorean theorem: <img src="/tex/0020492d10a7da15fd6f957fe4bae301.svg?invert_in_darkmode&sanitize=true" align=middle width=146.88721244999996pt height=26.76175259999998pt/>
   * Squared length of vector <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>: <img src="/tex/71e959d58d2486c3eb2942a9177b20f6.svg?invert_in_darkmode&sanitize=true" align=middle width=29.14556864999999pt height=27.6567522pt/>
-  * When vectors are orthogonal (sub into Pythagorean): 
+  * When vectors are orthogonal (sub into Pythagorean):
 
 <p align="center"><img src="/tex/40c0cc53edc6552d83b24e1e7988d9cb.svg?invert_in_darkmode&sanitize=true" align=middle width=271.9619727pt height=76.202808pt/></p>
 
@@ -36,7 +36,7 @@
   * <img src="/tex/1ee1e21dada7761855899433bd89f236.svg?invert_in_darkmode&sanitize=true" align=middle width=51.86062694999999pt height=22.465723500000017pt/> defines the nullspace
   * Alternatively, you can think of it as:
 
-<p align="center"><img src="/tex/dab38e23e6b733bab3580086060e1bf5.svg?invert_in_darkmode&sanitize=true" align=middle width=249.89546174999998pt height=78.9048876pt/></p>
+<p align="center"><img src="/tex/e9a21ea3768b166d4ca1923b94bf3890.svg?invert_in_darkmode&sanitize=true" align=middle width=249.89546174999998pt height=78.9048876pt/></p>
 
 * Each row of <img src="/tex/53d147e7f3fe6e47ee05b88b166bd3f6.svg?invert_in_darkmode&sanitize=true" align=middle width=12.32879834999999pt height=22.465723500000017pt/> is orthogonal to <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> because that row multiplied by <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>
   equals 0.
