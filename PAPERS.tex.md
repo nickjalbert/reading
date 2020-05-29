@@ -25,14 +25,58 @@
   * Error is the difference between $b$ and projection $p$: $e=b-p$
   * The projection $p$ is some multiple of the basis:
     *  $p = \hat{x_1}a_1 + \hat{x_2}a_2 = A\hat{x}$
-  * Two equations: 
+  * Two equations:
     * $a^T_1(b-A\hat{x}) = 0$
     * $a^T_2(b-A\hat{x}) = 0$
   * Combines into: $A^T(b-A\hat{x}) = 0$
   * Note the error is in the nullspace of $A^T$ by the above equation
-    * e is perpendicular to the columnspace of $A$
+    * error is perpendicular to the columnspace of $A$
+  * Rewrite equation: $A^TA\hat{x} = A^Tb$
+  * Solve for $\hat{x}$: $\hat{x} = (A^TA)^{-1}A^Tb$
+  * $p = A\hat{x} = A(A^TA)^{-1}A^Tb$
+  * You generally can't distribute the inverse above because $A$ isn't square
+  * If $A$ is invertible, then $b$ is in the columnspace and the projection
+    matrix is the identity matrix.
 
-  
+* You can conceptualize least squares as a projection problem.
+  * You are given a bunch of data points that lie close to a line
+    * e.g. you are given (1,1), (2,2), and (3,2). What is the line that
+      minimizes error?
+  * Find the best line $b=C+Dt$, so we're solving the equations:
+    * $C+D=1$
+    * $C+2D=2$
+    * $C+3D=2$
+
+$$
+
+Ax = b
+
+
+    \begin{bmatrix}
+        \begin{array}{rr}
+        1 & 1 \\
+        1 & 2 \\
+        1 & 3 \\
+        \end{array}
+    \end{bmatrix} *
+    \begin{bmatrix}
+        \begin{array}{r}
+        C \\
+        D \\
+        \end{array}
+    \end{bmatrix}  =
+    \begin{bmatrix}
+        \begin{array}{r}
+        1 \\
+        2 \\
+        2 \\
+        \end{array}
+    \end{bmatrix}
+
+$$
+
+* Now we project $b$ into the columnspace of $A$ and solve.
+
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 ### Gilbert Strang
@@ -45,10 +89,10 @@
 * Test for orthogonality - two vectors are orthogonal if the dot product
   ($x^Ty$) is zero.
 
-* Shows the connection between the Pythagorean theorem and orthogonality.  
+* Shows the connection between the Pythagorean theorem and orthogonality.
   * Pythagorean theorem: $|x|^2 + |y|^2 = |x+y|^2$
   * Squared length of vector $x$: $x^Tx$
-  * When vectors are orthogonal (sub into Pythagorean): 
+  * When vectors are orthogonal (sub into Pythagorean):
 
 $$
 
@@ -79,7 +123,7 @@ $$
             ... \\
             \text{row m of A} \\
         \end{array}
-    \end{bmatrix} * 
+    \end{bmatrix} *
     \begin{bmatrix}
         \begin{array}{r}
             x_1  \\
