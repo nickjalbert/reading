@@ -2,12 +2,10 @@
 ### Gilbert Strang
 
 * Starts with a 2D example of projecting a vector onto another vector.
-  * The projection of <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> onto <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/> is <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/> scaled by a constant <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/> such that
-    $a^T(b-xa) = 0$ (that is, the difference or error between $b$ and the 
-    projection $xa$ is orthogonal to $a$).
-  * <img src="/tex/577881973f2507c95c2f6ec113df43cd.svg?invert_in_darkmode&sanitize=true" align=middle width=85.14606209999998pt height=27.6567522pt/>
-  * <img src="/tex/246dd531380757227492d1786376da18.svg?invert_in_darkmode&sanitize=true" align=middle width=56.63571374999999pt height=34.099002299999995pt/>
-  * The projection is just <img src="/tex/066af5ab4371e905f0eb4de94a6255b9.svg?invert_in_darkmode&sanitize=true" align=middle width=48.27233894999999pt height=14.15524440000002pt/>
+  * The projection, <img src="/tex/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.270567249999992pt height=14.15524440000002pt/>, of <img src="/tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode&sanitize=true" align=middle width=7.054796099999991pt height=22.831056599999986pt/> onto <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/> is just <img src="/tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode&sanitize=true" align=middle width=8.68915409999999pt height=14.15524440000002pt/> scaled by a constant <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>:
+
+<p align="center"><img src="/tex/dbfecfc32ccd7d11ce78fa6707f07b47.svg?invert_in_darkmode&sanitize=true" align=middle width=450.41171835pt height=76.37435024999999pt/></p>
+
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 ### Gilbert Strang
