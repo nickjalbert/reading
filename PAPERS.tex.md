@@ -1,8 +1,13 @@
-
 ## [Strang Lecture 15: Projections onto Subspaces](https://www.youtube.com/watch?v=Y_Ac6KiQ1t0)
 ### Gilbert Strang
 
-
+* Starts with a 2D example of projecting a vector onto another vector.
+  * The projection of $b$ onto $a$ is $a$ scaled by a constant $x$ such that
+    $a^T(b-xa) = 0$ (that is, the difference or error between $b$ and the 
+    projection $xa$ is orthogonal to $a$).
+  * $xa^Ta = a^Tb$
+  * $x = \frac{a^Tb}{a^Ta}$
+  * The projection is just $p=ax$
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 ### Gilbert Strang
