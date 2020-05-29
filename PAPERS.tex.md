@@ -19,10 +19,20 @@
     problem with a solution.
   * So we solve the closest vector in the columnspace to $b$ ($Ax=p$) where $p$     is in the columnspace of $A$.
 
+* You are given a plane defined by a basis $a_1$ and $a_2$:
+  * $A$ is the matrix where $a_1$ is column 1 and $a_2$ is column 2
+  * We will solve $Ax=b$ by projecting $b$ into the columnspace of $A$
+  * Error is the difference between $b$ and projection $p$: $e=b-p$
+  * The projection $p$ is some multiple of the basis:
+    *  $p = \hat{x_1}a_1 + \hat{x_2}a_2 = A\hat{x}$
+  * Two equations: 
+    * $a^T_1(b-A\hat{x}) = 0$
+    * $a^T_2(b-A\hat{x}) = 0$
+  * Combines into: $A^T(b-A\hat{x}) = 0$
+  * Note the error is in the nullspace of $A^T$ by the above equation
+    * e is perpendicular to the columnspace of $A$
 
-
-
-
+  
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 ### Gilbert Strang
