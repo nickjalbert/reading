@@ -1,2 +1,7 @@
 code/env/
 code/.ipynb_checkpoints/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

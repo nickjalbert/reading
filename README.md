@@ -11,6 +11,11 @@ cognitive architectures, AI, and related topics.
 * add word to dictionary: `zg`
 * mark a word as incorrect: `zw`
 
+## Jekyll notes
+
+```
+bundle exec jekyll serve
+```
 
 ## Reading Group
 
