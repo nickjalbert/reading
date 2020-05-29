@@ -16,6 +16,7 @@ See the live version at
 
 ## Jekyll notes
 
+* Jekyll theme: `/usr/local/lib/ruby/gems/2.7.0/gems/minima-2.5.1`
 * Serve the site locally: `./scripts/serve`
 
 ## Reading Group
