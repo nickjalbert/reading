@@ -2,7 +2,7 @@
 ### Gilbert Strang
 
 * Starts with a 2D example of projecting a vector onto another vector.
-  * The projection, $p$, of $b$ onto $a$ is just $a$ scaled by a constant $x$
+  * The projection $p$ of vector $b$ onto vector $a$ is $a$ scaled by $x$
   * The projection is scaled $a$: $p=xa$
   * Error is difference of projection $p$ and projected vector $b$: $b-xa$
   * Error should be orthogonal to $a$: $a^T(b-xa) = 0$
