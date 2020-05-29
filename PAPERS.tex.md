@@ -2,12 +2,20 @@
 ### Gilbert Strang
 
 * Starts with a 2D example of projecting a vector onto another vector.
-  * The projection of $b$ onto $a$ is $a$ scaled by a constant $x$ such that
-    $a^T(b-xa) = 0$ (that is, the difference or error between $b$ and the 
-    projection $xa$ is orthogonal to $a$).
-  * $xa^Ta = a^Tb$
-  * $x = \frac{a^Tb}{a^Ta}$
-  * The projection is just $p=ax$
+  * The projection, $p$, of $b$ onto $a$ is just $a$ scaled by a constant $x$:
+
+$$
+
+\text{The projection is scaled a:} p=xa
+
+\text{Error is difference of projection p and projected vector b:} b-xa
+
+\text{Error should be orthogonal to a:} a^T(b-xa) = 0
+
+\text{Solve for x:} x = \frac{a^Tb}{a^Ta}
+
+$$
+
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 ### Gilbert Strang
