@@ -3,6 +3,9 @@
 Notes on readings related to reinforcement learning, neural nets,
 cognitive architectures, AI, and related topics.
 
+See the live version at
+[https://nickjalbert.github.io/reading/](https://nickjalbert.github.io/reading/)
+
 ## VIM spellcheck hints
 
 * start spellcheck: `:set spell`
