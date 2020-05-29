@@ -2,11 +2,26 @@
 ### Gilbert Strang
 
 * Starts with a 2D example of projecting a vector onto another vector.
-  * The projection $p$ of vector $b$ onto vector $a$ is $a$ scaled by $x$
-  * The projection is scaled $a$: $p=xa$
+  * The projection $p$ of vector $b$ onto vector $a$
+  * The projection is $a$ scaled by $x$: $p=xa$
   * Error is difference of projection $p$ and projected vector $b$: $b-xa$
   * Error should be orthogonal to $a$: $a^T(b-xa) = 0$
   * Solve for $x$: $x = \frac{a^Tb}{a^Ta}$
+  * Substitute back into $p$: $p=a\frac{a^Tb}{a^Ta}$
+  * The projection matrix is $\text{proj}(p)=Pb=\frac{aa^T}{a^Ta}$
+  * The column space of the projection matrix is a line through $a$
+  * The rank of the projection matrix is 1
+  * The projection matrix is symmetric: $P^T=P$
+  * Projecting more than once will give you same result: $P^2=P$
+
+* Why project?
+  * Because $Ax=b$ may have no solution so we want to solve the closest
+    problem with a solution.
+  * So we solve the closest vector in the columnspace to $b$ ($Ax=p$) where $p$     is in the columnspace of $A$.
+
+
+
+
 
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
