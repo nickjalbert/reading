@@ -8,7 +8,6 @@
   * Error should be orthogonal to $a$: $a^T(b-xa) = 0$
   * Solve for $x$: $x = \frac{a^Tb}{a^Ta}$
   * Substitute back into $p$: $p=a\frac{a^Tb}{a^Ta}$
-  * The projection matrix is $\text{proj}(p)=Pb=\frac{aa^T}{a^Ta}$
   * The column space of the projection matrix is a line through $a$
   * The rank of the projection matrix is 1
   * The projection matrix is symmetric: $P^T=P$
