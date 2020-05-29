@@ -8,7 +8,10 @@
   * Error should be orthogonal to $a$: $a^T(b-xa) = 0$
   * Solve for $x$: $x = \frac{a^Tb}{a^Ta}$
   * Substitute back into $p$: $p=a\frac{a^Tb}{a^Ta}$
-  * The projection matrix $P$ is $\frac{aa^T}{a^Ta}$ and is applied to $b$.
+  * Substitute back into $p$: $p=a\frac{a^Tb}{a^Ta}$
+  * Substitute back into $p$: $p=a\frac{a^Tb}{a^Ta}$
+  * Substitute back into $p$: $p=a\frac{a^Tb}{a^Ta}$
+  * Substitute back into $p$: $p=a\frac{a^Tb}{a^Ta}$
 
 ## [Strang Lecture 14: Orthogonal Vectors and Subspaces](https://www.youtube.com/watch?v=YzZUIYRCE38)
 ### Gilbert Strang
