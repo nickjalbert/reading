@@ -13,9 +13,7 @@ cognitive architectures, AI, and related topics.
 
 ## Jekyll notes
 
-```
-bundle exec jekyll serve
-```
+* Serve the site locally: `./scripts/serve`
 
 ## Reading Group
 
