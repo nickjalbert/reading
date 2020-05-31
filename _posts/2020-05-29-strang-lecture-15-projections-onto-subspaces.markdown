@@ -34,7 +34,7 @@ author: Nick Jalbert
   * Error is the difference between $$b$$ and projection $$p$$: $$e=b-p$$
   * The projection $$p$$ is some multiple of the basis:
 
-    $$p = \hat{x_1}a_1 + \hat{x_2}a_2 = A\hat{x}$$
+    $$p = \hat{x}_1a_1 + \hat{x}_2a_2 = A\hat{x}$$
 
   * The above projection defines two equations:
 
