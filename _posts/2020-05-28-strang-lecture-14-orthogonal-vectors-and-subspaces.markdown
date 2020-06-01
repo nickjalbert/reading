@@ -69,12 +69,12 @@ $$
   $$x$$ equals 0.
   * You also have to show that $$x$$ is orthogonal to every linear combination
     of the rows of $$A$$.
-  * If $$c_1\text{row}_1^Tx = 0$$ and $$c_2\text{row}_2^T = 0$$ then use
+  * If $$c_1\text{row}_1^Tx = 0$$ and $$c_2\text{row}_2^Tx = 0$$ then use
     distributive property to show that:
 
 $$
 
-(c_1\text{row}_1 + c_2\text{row}_2)^T = 0_{ }
+(c_1\text{row}_1 + c_2\text{row}_2)^Tx = 0_{ }
 
 $$
 
