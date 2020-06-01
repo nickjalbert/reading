@@ -69,10 +69,10 @@ $$a^T_2(b-A\hat{x}) = 0$$
   * In matrix form, this is:
 
 $$
-
 Ax = b
+$$
 
-
+$$
     \begin{bmatrix}
         \begin{array}{rr}
         1 & 1 \\
