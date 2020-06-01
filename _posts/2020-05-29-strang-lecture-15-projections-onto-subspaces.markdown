@@ -8,6 +8,16 @@ paper-authors:
 author: Nick Jalbert
 ---
 
+### Summary
+
+One can imagine least squares regression as solving $$Ax=b$$ where $$b$$ is
+(generally) not in the columnspace of $$A$$.  To handle this, one projects
+$$b$$ into the columnspace of $$A$$ and solves $$Ax=p$$. Note the error of the
+projection ($$e=b-p$$) is orthogonal to $$A^T$$ and is thus in the nullspace of
+$$A^T$$.
+
+### Notes
+
 * Starts with a 2D example of projecting a vector onto another vector.
   * The projection $$p$$ of vector $$b$$ onto vector $$a$$
   * The projection is $$a$$ scaled by $$x$$: $$p=xa$$
