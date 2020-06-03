@@ -223,7 +223,7 @@ author: Nick Jalbert
 
 ### Back to Linear Algebra
 
-* If $$A$$ has independent columns, then $A^TA$ is invertible.
+* If $$A$$ has independent columns, then $$A^TA$$ is invertible.
 
 * How to prove?
 
