@@ -249,3 +249,7 @@ author: Nick Jalbert
 
 * Columns are definitely independent if they are perpendicular unit vectors
   (orthonormal vectors).
+
+### TODO
+
+* What is the projection matrix for $$b$$ into the left nullspace of $$A$$?

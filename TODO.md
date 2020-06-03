@@ -9,6 +9,7 @@
 * [A Framework for Intelligence and Cortical Function Based on Grid Cells in the Neocortex](https://numenta.com/neuroscience-research/research-publications/papers/a-framework-for-intelligence-and-cortical-function-based-on-grid-cells-in-the-neocortex/)
 * [Encoding Reality: Prediction-Assisted Cortical Learning Algorithm in Hierarchical Temporal Memory](https://arxiv.org/abs/1509.08255)
 * [Deep Neuroevolution: Genetic Algorithms are a Competitive Alternative fo rTraining Deep Neural Networks for Reinforcement Learning](https://arxiv.org/pdf/1712.06567.pdf)
+* [Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf)
 
 ## Neural Nets
 
