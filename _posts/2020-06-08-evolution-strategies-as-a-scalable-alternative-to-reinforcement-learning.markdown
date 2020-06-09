@@ -115,3 +115,4 @@ author: Nick Jalbert
 ### See also
 
 * [Evolution Strategies by Lilian Weng](https://lilianweng.github.io/lil-log/2019/09/05/evolution-strategies.html)
+* [A Visual Guide to Evolution Strategies](https://blog.otoro.net/2017/10/29/visual-evolution-strategies/)
