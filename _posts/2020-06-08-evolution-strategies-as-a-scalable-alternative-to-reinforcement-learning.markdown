@@ -110,4 +110,8 @@ author: Nick Jalbert
 
 * Never heard of frameskip before, but apparently sometimes you just ignore
   some frames and only choose an action, for example, every fourth frame.
-  
+
+
+### See also
+
+* [Evolution Strategies by Lilian Weng](https://lilianweng.github.io/lil-log/2019/09/05/evolution-strategies.html)
