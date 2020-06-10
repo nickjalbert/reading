@@ -4,6 +4,10 @@
 
 Developed under Python 3.7.6 on OS X 10.15.4.
 
+#### Suggested Installation
+
+* `brew install python3`
+* `pip3 install virtualenv`
 * ``virtualenv -p `which python3` env``
 * `source env/bin/activate`
 * `pip install -r requirements.txt`
