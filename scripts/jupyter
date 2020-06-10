@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -eu
+
+source code/env/bin/activate
+jupyter notebook
