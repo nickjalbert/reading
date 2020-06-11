@@ -54,10 +54,8 @@ def get_run(agent, explore):
         run.append((state, action))
     if not explore:
         print(p_lefts)
-        print([a for s,a in run])
+        print([a for s, a in run])
     return run
-
-
 
 
 def get_training_data(runs):
