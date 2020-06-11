@@ -18,14 +18,14 @@ import gym
 def get_agent():
     model = tf.keras.Sequential(
         [
-            tf.keras.layers.Dense(32, activation="relu", input_shape=(4,)),
+            tf.keras.layers.Dense(64, activation="relu", input_shape=(4,)),
             tf.keras.layers.Dense(32, activation="relu"),
             tf.keras.layers.Dense(32, activation="relu"),
             tf.keras.layers.Dense(1, activation="sigmoid"),
         ]
     )
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(0.01),
+        optimizer=tf.keras.optimizers.Adam(0.05),
         loss=tf.keras.losses.BinaryCrossentropy(),
         metrics=["accuracy"],
     )
@@ -48,7 +48,7 @@ def get_run(agent, explore):
         if explore:
             action = 0 if random.random() <= p_left else 1
         else:
-            action = 0 if p_left <= 0.5 else 1
+            action = 0 if p_left >= 0.5 else 1
         state, reward, done, info = env.step(action)
         total_reward += reward
         run.append((state, action))
@@ -56,7 +56,7 @@ def get_run(agent, explore):
 
 
 def get_training_data(runs):
-    DISCOUNT = 0.95
+    DISCOUNT = 0.9
     discounted_runs = []
     for run in runs:
         discounted_run = []
