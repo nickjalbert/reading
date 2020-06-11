@@ -18,22 +18,20 @@ import gym
 def get_agent():
     model = tf.keras.Sequential(
         [
-            tf.keras.layers.Dense(64, activation="relu", input_shape=(4,)),
-            tf.keras.layers.Dense(32, activation="relu"),
-            tf.keras.layers.Dense(32, activation="relu"),
+            tf.keras.layers.Dense(16, activation="relu", input_shape=(4,)),
+            tf.keras.layers.Dense(8, activation="relu"),
             tf.keras.layers.Dense(1, activation="sigmoid"),
         ]
     )
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(0.05),
+        optimizer=tf.keras.optimizers.Adam(),
         loss=tf.keras.losses.BinaryCrossentropy(),
-        metrics=["accuracy"],
     )
     return model
 
 
 def get_run_batch(agent):
-    RUNS_PER_BATCH = 50
+    RUNS_PER_BATCH = 10
     return [get_run(agent, True) for i in range(RUNS_PER_BATCH)]
 
 
@@ -43,8 +41,10 @@ def get_run(agent, explore):
     done = False
     total_reward = 0
     run = []
+    p_lefts = []
     while not done and total_reward < 200:
-        p_left = agent(np.reshape(state, (1, 4)))[0][0]
+        p_left = float(agent(np.reshape(state, (1, 4)))[0][0])
+        p_lefts.append(p_left)
         if explore:
             action = 0 if random.random() <= p_left else 1
         else:
@@ -52,7 +52,12 @@ def get_run(agent, explore):
         state, reward, done, info = env.step(action)
         total_reward += reward
         run.append((state, action))
+    if not explore:
+        print(p_lefts)
+        print([a for s,a in run])
     return run
+
+
 
 
 def get_training_data(runs):
