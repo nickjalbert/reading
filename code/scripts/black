@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eu
+
+target=${1:---help}
+
+black --line-length=79 $target
+
