@@ -1,8 +1,9 @@
 ## Genetic Algorithms
 
 The file `genetic.py` implements the genetic algorithm described in Such et
-al.'s paper "Deep Neuroevolution: Genetic Algorithms are a Competitive
-Alternative for Training Deep Neural Networks for Reinforcement Learning".
+al.'s paper "[Deep Neuroevolution: Genetic Algorithms are a Competitive
+Alternative for Training Deep Neural Networks for Reinforcement 
+Learning](https://arxiv.org/pdf/1712.06567.pdf)".
 Run it using `python genetic.py` after installing the requirements by running
 `pip install -r ../requirements.txt`
 
