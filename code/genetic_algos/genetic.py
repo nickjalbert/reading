@@ -18,19 +18,23 @@ import mlflow.tracking
 import gym
 
 
-def get_agent():
-    model = tf.keras.Sequential(
-        [
-            tf.keras.layers.Dense(16, activation="relu", input_shape=(4,)),
-            tf.keras.layers.Dense(8, activation="relu"),
-            tf.keras.layers.Dense(1, activation="sigmoid"),
-        ]
-    )
-    model.compile(
-        optimizer=tf.keras.optimizers.Adam(),
-        loss=tf.keras.losses.BinaryCrossentropy(),
-    )
-    return model
+def get_child_pool():
+    CHILD_COUNT = 100
+    children = []
+    for i in range(CHILD_COUNT):
+        model = tf.keras.Sequential(
+            [
+                tf.keras.layers.Dense(16, activation="relu", input_shape=(4,)),
+                tf.keras.layers.Dense(8, activation="relu"),
+                tf.keras.layers.Dense(1, activation="sigmoid"),
+            ]
+        )
+        model.compile(
+            optimizer=tf.keras.optimizers.Adam(),
+            loss=tf.keras.losses.BinaryCrossentropy(),
+        )
+        children.append(model)
+    return children
 
 
 def get_run_batch(agent):
@@ -61,29 +65,32 @@ def get_run(agent, explore):
     return run
 
 
-def get_child(parent):
-    child = get_agent()
+def create_child(child, parent, with_noise):
     for child_layer, parent_layer in zip(child.layers, parent.layers):
         weights = parent_layer.get_weights()
-        new_weights = [w + np.random.normal(0, 0.1, w.shape) for w in weights]
+        if with_noise:
+            new_weights = [
+                w + np.random.normal(0, 0.1, w.shape) for w in weights
+            ]
+        else:
+            new_weights = weights
         child_layer.set_weights(new_weights)
     return child
 
 
-def generate_children(fittest):
-    POPULATION = 12
-    children = []
-    for genotype in range(POPULATION):
+def generate_children(fittest, child_pool):
+    for child in child_pool:
         parent = random.choice(fittest)
-        child = get_child(parent)
-        children.append(child)
-    return children + fittest
+        create_child(child, parent, with_noise=True)
+    for fit in fittest:
+        child = random.choice(child_pool)
+        create_child(child, fit, with_noise=False)
 
 
-def evaluate_children(children):
+def evaluate_children(child_pool):
     FITTEST = -10
     results = []
-    for child in children:
+    for child in child_pool:
         runs = get_run_batch(child)
         mean_run_length = statistics.mean([len(run) for run in runs])
         results.append((mean_run_length, child))
@@ -112,10 +119,11 @@ def evaluate_results(results, generation):
 
 def train():
     GENERATIONS = 1000
-    fittest = [get_agent() for i in range(10)]
+    child_pool = get_child_pool()
+    fittest = [random.choice(child_pool) for i in range(10)]
     for generation in range(GENERATIONS):
-        children = generate_children(fittest)
-        results = evaluate_children(children)
+        generate_children(fittest, child_pool)
+        results = evaluate_children(child_pool)
         evaluate_results(results, generation)
         fittest = [r[1] for r in results]
 
