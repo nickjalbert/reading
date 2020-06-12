@@ -13,7 +13,7 @@ Highlights of the algorithm:
   nets (4 input neurons to a 16 neuron relu layer to a 8 layer relu layer to a
   sigmoid output neuron which represents the probability of going left).
 * For each generation, we instantiate 90 children neural nets which have the
-  weights of the fittest nets from previous generations perturb by Gaussian
+  weights of the fittest nets from the previous generation perturb by Gaussian
   noise.  We also port forward the 10 best performing nets from the previous
   generation (so each generation contains 100 nets).
 * We evaluate each net in each generation on 10 runs of Cartpole, we take the
@@ -28,4 +28,5 @@ Running on commit #fba9cde, we observed the following results:
 
 ![Results](assets/ga.png?raw=true)
 
-We solved Cartpole after ~45min of running on a mid-2012 macbook air.
+We solved Cartpole after 20 generation running for ~45min on a mid-2012 macbook
+air.
