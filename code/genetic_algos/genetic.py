@@ -1,13 +1,15 @@
 # Applies the genetic algorithm described in the paper
-# "Deep Neuroevolution: Genetic Algorithms are a Competitive Alternative for
-#  Training Deep Neural Networks for Reinforcement Learning"
-# to cartole.
+#   "Deep Neuroevolution: Genetic Algorithms are a Competitive Alternative
+#    for Training Deep Neural Networks for Reinforcement Learning"
+# to Cartpole.
 #
 # Run with:
 #   python genetic.py
 #
-# View progress at http://localhost:5000 with:
+# View progress at http://localhost:5000 by running:
 #   mlflow ui
+#
+# See README.md for results
 #
 
 import random
