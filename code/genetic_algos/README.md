@@ -25,4 +25,6 @@ Highlights of the algorithm:
 
 Running on commit #fba9cde, we observed the following results:
 
-TODO
+![Results](assets/ga.png?raw=true)
+
+We solved Cartpole after ~45min of running on a mid-2012 macbook air.
