@@ -8,22 +8,18 @@
 
 import random
 import statistics
-
-# from decimal import get_context
+import sys
 from decimal import Decimal
 from collections import defaultdict
-
-# import numpy as np
-# import tensorflow as tf
 import mlflow.tracking
 import gym
 
-MAX_EPISODES = 100000
+MAX_EPISODES = 10000000
 DISCOUNT = 0.9
-LEARNING_RATE = 0.1
+LEARNING_RATE = 0.2
 INITIAL_EPSILON = 0.5
 DROP_RATE = 0.5
-EPISODES_PER_DROP = 1000
+EPISODES_PER_DROP = 500000
 
 
 class DiscreteCartpole:
@@ -45,9 +41,37 @@ class DiscreteCartpole:
 class QTable:
     def __init__(self):
         self.storage = defaultdict(int)
+        self.reset_stats()
+
+    @property
+    def hit_rate(self):
+        if self.access_count == 0:
+            return 0
+        return self.hit_count / self.access_count
+
+    @property
+    def nonzero_hit_rate(self):
+        if self.access_count == 0:
+            return 0
+        return self.nonzero_hit_count / self.access_count
+
+    @property
+    def size_in_mb(self):
+        return sys.getsizeof(self.storage) / 2 ** 20
+
+    def reset_stats(self):
+        self.access_count = 0
+        self.hit_count = 0
+        self.nonzero_hit_count = 0
 
     def get(self, state, action):
-        return self.storage[(state, action)]
+        self.access_count += 1
+        if (state, action) in self.storage:
+            self.hit_count += 1
+        q_value = self.storage[(state, action)]
+        if q_value != 0:
+            self.nonzero_hit_count += 1
+        return q_value
 
     def set(self, state, action, value):
         self.storage[(state, action)] = value
@@ -95,6 +119,7 @@ def evaluate_policy(episode, env, q_values):
     if episode % 1000 != 0:
         return
     is_training = False
+    q_values.reset_stats()
     rewards = [run_episode(i, env, q_values, is_training) for i in range(10)]
     max_reward = max(rewards)
     mean_reward = statistics.mean(rewards)
@@ -107,9 +132,12 @@ def evaluate_policy(episode, env, q_values):
     print()
     print(f"Iteration {episode}")
     print(f"\tMax steps per run: {max_reward}")
-    print(f"\tMedian steps per run {median_reward}")
-    print(f"\tMean steps per run {mean_reward}")
-    print(f"\tMin steps per run {min_reward}")
+    print(f"\tMedian steps per run: {median_reward}")
+    print(f"\tMean steps per run: {mean_reward}")
+    print(f"\tMin steps per run: {min_reward}")
+    print(f"\tQ Hit Rate: {q_values.hit_rate:.4f}")
+    print(f"\tNonzero Q Hit Rate: {q_values.nonzero_hit_rate:.4f}")
+    print(f"\tQ table size: {q_values.size_in_mb:.2f} MB")
     print()
 
 
