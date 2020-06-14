@@ -98,7 +98,7 @@ def run_episode(episode, env, q_values, is_training):
     state = env.reset()
     done = False
     total_reward = 0
-    while not done:
+    while not done and total_reward < 200:
         action = get_next_action(episode, q_values, state, is_training)
         next_state, reward, done, info = env.step(action)
         if is_training:
