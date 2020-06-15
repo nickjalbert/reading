@@ -15,6 +15,7 @@
 
 * [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292)
 * Explore implementing XOR in a small NN with linearity and nonlinearity
+* [Gated Linear Networks](https://arxiv.org/abs/1910.01526)
 
 ## Neuroscience
 
