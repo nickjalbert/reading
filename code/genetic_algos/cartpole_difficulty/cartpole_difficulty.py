@@ -1,9 +1,21 @@
+# Quick script that evaluates the performance of:
+#   1. A completely random policy (aka coin flip)
+#   2. A randomly initialized neural net
+# playing CartPole-v1
+#
+# Run:
+#    python cartpole_difficulty.py
+#
+# See RESULTS.md for raw results
+#
+
 import numpy as np
 import tensorflow as tf
 import gym
 import seaborn as sns
 import matplotlib.pyplot as plt
 import statistics
+import random
 
 
 TRIALS = 2000
@@ -18,31 +30,38 @@ def print_do_better_than(all_rewards, threshold):
     )
 
 
-def evaluate():
+def evaluate(use_random):
     env = gym.make("CartPole-v1")
     all_rewards = []
     for i in range(TRIALS):
-        nn = tf.keras.Sequential(
-            [
-                tf.keras.layers.Dense(4, activation="relu", input_shape=(4,)),
-                tf.keras.layers.Dense(1, activation="sigmoid"),
-            ]
-        )
+        if not use_random:
+            nn = tf.keras.Sequential(
+                [
+                    tf.keras.layers.Dense(
+                        4, activation="relu", input_shape=(4,)
+                    ),
+                    tf.keras.layers.Dense(1, activation="sigmoid"),
+                ]
+            )
         # Run using Neural Net as policy
         state = env.reset()
         total_reward = 0
         done = False
         while not done and total_reward < 200:
-            p_left = float(nn(np.reshape(state, (1, 4)))[0][0])
-            action = 0 if p_left > 0.5 else 1
+            if use_random:
+                action = random.choice([0, 1])
+            else:
+                p_left = float(nn(np.reshape(state, (1, 4)))[0][0])
+                action = 0 if p_left > 0.5 else 1
             state, reward, done, info = env.step(action)
             total_reward += reward
         all_rewards.append(total_reward)
+    descriptor = "random" if use_random else "nn"
     print("----------")
     print(all_rewards)
     print("----------")
     print()
-    print(f"Results for {len(all_rewards)} trials")
+    print(f"Results for {len(all_rewards)} {descriptor} trials")
     print(f"\tMax reward: {max(all_rewards)}")
     print(f"\tMedian reward: {statistics.median(all_rewards)}")
     print(f"\tMean reward: {statistics.mean(all_rewards):.2f}")
@@ -63,20 +82,30 @@ def evaluate():
         f"\tPerfect nets (200 reward): {len(perfect_runs)} ("
         f"{len(perfect_runs)*100/len(all_rewards):.2f}%)"
     )
+    plt.clf()
+    title = "Randomly Initialized NNs play CartPole"
+    if use_random:
+        title = "Random Policy plays CartPole"
     sns.distplot(
         all_rewards, axlabel="CartPole-v1 reward", kde=False,
-    ).set_title("Randomly Initialized NNs play CartPole")
-    plt.savefig("results.png")
+    ).set_title(title)
+    plt.savefig(f"{descriptor}-results.png")
     plt.clf()
+    title = "Randomly Initialized NNs play CartPole and score more than 15"
+    if use_random:
+        title = "Random Policy plays CartPole and scores more than 15"
     sns.distplot(
         [r for r in all_rewards if r > 15],
         axlabel="CartPole-v1 reward",
         kde=False,
-    ).set_title(
-        "Randomly Initialized NNs play CartPole and score more than 15"
-    )
-    plt.savefig("results-gt-15.png")
+    ).set_title(title)
+    plt.savefig(f"{descriptor}-results-gt-15.png")
 
 
 if __name__ == "__main__":
-    evaluate()
+    print("Random Policy:")
+    evaluate(True)
+    print()
+    print()
+    print("Randomly Initialized NN:")
+    evaluate(False)
