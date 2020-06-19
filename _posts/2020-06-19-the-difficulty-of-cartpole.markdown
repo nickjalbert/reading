@@ -61,16 +61,17 @@ it's interesting that:
 
 1. A randomly initialized neural net performs differently than a random coin
    flip.  This implies that the particular function computed by a randomly
-   initialized neural net of this architecture is more amenable to solving
-   Cartpole than just flipping a coin.
+   initialized neural net of this architecture is different from a binomial
+   function and more amenable to solving Cartpole.
 
 2. If you imagine all the policies that could be represented by a neural net of
    this architecture as a space, then that space will have a structure of good
    versus bad policies and this structure is potentially very relevant for how
-   easy or difficult the benchmark is for that architecture.  Additionally, if
-   you view training as how you move through the aforementioned policy space,
-   then the particulars of your training algorithm and the structure of the
-   policy space can interact to impact the difficulty of the benchmark.
+   easy or difficult the benchmark is for that architecture.  
+
+3. If you view training as how you move through the aforementioned policy
+   space, then the particulars of your training algorithm and the structure of
+   the policy space can interact to impact the difficulty of the benchmark.
 
 [Such et al.](https://arxiv.org/pdf/1712.06567.pdf) have more discussion along
 these lines and I'd recommend taking a look at their paper.
