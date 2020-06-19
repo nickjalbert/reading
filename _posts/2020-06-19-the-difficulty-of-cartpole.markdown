@@ -64,11 +64,13 @@ it's interesting that:
    initialized neural net of this architecture is more amenable to solving
    Cartpole than just flipping a coin.
 
-2. If you imagine all the policies that could be represented by a neural net
-   of this architecture as a space, then that space will have a structure of
-   good vs bad policies and this structure is potentially very relevant for
-   how easy or difficult the benchmark is for a particular architecture and
-   training algorithm.
+2. If you imagine all the policies that could be represented by a neural net of
+   this architecture as a space, then that space will have a structure of good
+   versus bad policies and this structure is potentially very relevant for how
+   easy or difficult the benchmark is for that architecture.  Additionally, if
+   you view training as how you move through the aforementioned policy space,
+   then the particulars of your training algorithm and the structure of the
+   policy space can interact to impact the difficulty of the benchmark.
 
 [Such et al.](https://arxiv.org/pdf/1712.06567.pdf) have more discussion along
 these lines and I'd recommend taking a look at their paper.
