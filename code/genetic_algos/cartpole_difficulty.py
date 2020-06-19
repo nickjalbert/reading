@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import statistics
 
 
-TRIALS = 50
+TRIALS = 1000
 
 
 def print_do_better_than(all_rewards, threshold):
