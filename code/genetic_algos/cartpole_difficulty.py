@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import statistics
 
 
-TRIALS = 1000
+TRIALS = 2000
 
 
 def print_do_better_than(all_rewards, threshold):
@@ -66,7 +66,16 @@ def evaluate():
     sns.distplot(
         all_rewards, axlabel="CartPole-v1 reward", kde=False,
     ).set_title("Randomly Initialized NNs play CartPole")
-    plt.savefig('results.png')
+    plt.savefig("results.png")
+    plt.clf()
+    sns.distplot(
+        [r for r in all_rewards if r > 15],
+        axlabel="CartPole-v1 reward",
+        kde=False,
+    ).set_title(
+        "Randomly Initialized NNs play CartPole and score more than 15"
+    )
+    plt.savefig("results-gt-15.png")
 
 
 if __name__ == "__main__":
