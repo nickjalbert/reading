@@ -8,6 +8,7 @@ at commit #a671e01 and cleaned up.
 
 ### Random Policy
 
+```
 Results for 2000 random trials
 	Max reward: 104.0
 	Median reward: 19.0
@@ -25,11 +26,13 @@ Results for 2000 random trials
 	Nets that do better than 100: 1 (0.05%)
 	Nets that do better than 150: 0 (0.00%)
 	Perfect nets (200 reward): 0 (0.00%)
+```
 
 See also `random-results.png` and `random-results-gt-15.png`.
 
 ### Randomly Initialized NN
 
+```
 Results for 2000 nn trials
 	Max reward: 200.0
 	Median reward: 10.0
@@ -47,5 +50,6 @@ Results for 2000 nn trials
 	Nets that do better than 100: 130 (6.50%)
 	Nets that do better than 150: 75 (3.75%)
 	Perfect nets (200 reward): 50 (2.50%)
+```
 
 See also `nn-results.png` and `nn-results-gt-15.png`.
