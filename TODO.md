@@ -2,6 +2,7 @@
 
 * [Temporal difference learning and TD-Gammon](https://dl.acm.org/doi/10.1145/203330.203343)
 * [An object-oriented representation for efficient reinforcement learning](https://dl.acm.org/doi/10.1145/1390156.1390187)
+* [Using Inaccurate Models in Reinforcement Learning](https://ai.stanford.edu/~ang/papers/icml06-usinginaccuratemodelsinrl.pdf)
 
 ## AI 
 
