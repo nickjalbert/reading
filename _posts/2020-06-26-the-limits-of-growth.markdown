@@ -10,7 +10,7 @@ Murphy](https://tmurphy.physics.ucsd.edu/) that attempt to estimate the limits
 of civilizational growth.  I thought these posts were great reads and worth
 summarizing here.
 
-### [Galactic-Scale Energy](https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/)
+**[Galactic-Scale Energy](https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/)**
 
 Since the mid-1600s, energy usage in the U.S. has grown by roughly ~2-3% a year
 (doubling roughly every 25 to 35 years).  This growth is closely tied to
@@ -60,6 +60,29 @@ the milky way's energy" and those buy us at most a couple thousand years.
 This leaves us with the question: **how do we build a society that doesn't
 require sustained growth to function?**
 
+
+**[Does the Logistic Shoe Fit](https://dothemath.ucsd.edu/2011/08/does-the-logistic-shoe-fit/)**
+
+This post addresses a criticism of the Galactic-Scale Energy post; specifically
+that a different function might be a better fit for the recent energy-usage
+data rather than the exponential.
+
+This post explores three scenarios.  Any scenario could plausibly fit the data,
+but each trajectory comes with its own implications:
+
+* **Infinite growth (exponential curve)** - We run out of energy sources in a
+  few hundred years.
+* **Sustainable trajectory (logistic curve)** -  We go through a linear
+  inflection and leveling off on our growth of energy use.  This means that
+  current societal systems that expect X% growth a year will break.
+* **Finite resource (logistic curve on total energy extracted)** - The least
+  appealing case, we get caught in an energy trap and run out of fossil fuels
+  before we can transition to renewable sources.  This implies contraction in
+  our energy budget (and, likely, economy)
+
+
+
+<hr>
 
 [^1]: See section 12 of this
       [Solar FAQ](https://www.sandia.gov/~jytsao/Solar%20FAQs.pdf) for
