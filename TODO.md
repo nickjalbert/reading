@@ -1,3 +1,7 @@
+TODO: writup
+https://ai.stanford.edu/~ang/papers/icml06-usinginaccuratemodelsinrl.pdf
+
+
 ## Reinforcement Learning
 
 * [Temporal difference learning and TD-Gammon](https://dl.acm.org/doi/10.1145/203330.203343)
