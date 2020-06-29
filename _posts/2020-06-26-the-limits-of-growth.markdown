@@ -57,9 +57,13 @@ Highlighting the unforgiving nature of exponential growth, we can extend the
 analysis to scenarios like "capturing all the sun's energy" and "capturing all
 the milky way's energy" and those buy us at most a couple thousand years.
 
-This leaves us with the question: **how do we build a society that doesn't
-require sustained growth to function?**
+Another tack is taken by examining how much heat necessarily would be produced
+in a scenario when we continue our energy growth (say, through fusion) and
+remain planet-bound.  The math shows the equilibrium temperature of the earth's
+surface becomes hotter than the sun's surface in less than a thousand years.
 
+This leaves us with the question: **how do we build a society that doesn't
+require sustained exponential growth to function?**
 
 **[Does the Logistic Shoe Fit](https://dothemath.ucsd.edu/2011/08/does-the-logistic-shoe-fit/)**
 
@@ -79,6 +83,65 @@ but each trajectory comes with its own implications:
   appealing case, we get caught in an energy trap and run out of fossil fuels
   before we can transition to renewable sources.  This implies contraction in
   our energy budget (and, likely, economy)
+
+
+**[Can Economic Growth Last?](https://dothemath.ucsd.edu/2011/07/can-economic-growth-last/)**
+
+From 1900 to 1950, economic growth essentially paced the growth of societal
+energy usage.  From 1950 onward, economic growth increased more than energy
+growth (5% vs 3%).  Is this good news?  Can we continue to grow the economy
+uncoupled from energy consumption?
+
+This post divides non-energy-consumptive economic growth into two categories: 
+
+* **Efficiency gains** - Doing more productive work per energy unit consumed.
+* **The non-physical economy** - Non-manufacturing activity: services, finance, real
+  estate, virtual tech.
+
+In the efficiency arena, you generally can't make processes and machines more
+than 100% efficient.  Thus, this caps how much juice we can squeeze out of this
+strategy.  Two thirds of the energy we use is burned in heat engines, and these
+have a factor of 2 to 3 in efficiency improvement before we've hit the hard
+cap. A reasonable estimate in plausible efficiency gains for society as a whole
+is in the 2x to 4x range.  If we guess efficiency has been improving at roughly
+1% a year, that leaves us roughly 150 years before we exhaust this avenue.
+
+In the non-physical arena, a toy model is setup where:
+
+* Energy availability levels off (the "sustainable trajectory" above)
+* Efficiency gains continue but saturate at some multiple
+* The economy continues to grow exponentially (e.g. 5% a year)
+* The rest of the yearly growth comes from the non-physical economy
+
+The result is that the non-physical economy fast approaches 100% of economic
+activity, and this has all sorts of bizarre and contradictory implications.
+For example, given that we still require physical food to sustain our
+existence, and that there is a hard limit to the efficiency improvement of the
+food production processes, we end up in a scenario where (either or both) food
+cost approaches zero or growth gets dragged down by its interface points with
+the physical world.
+
+The result is that even the untethering of the economy from physical production
+processes is quickly exhausted in exponential scenarios as long as we still
+have physical needs.  Again, we are left with the question of what the future
+looks like once we exhaust growth?
+
+
+Tidbits:
+
+* Energy return on energy invested (EROEI) is important when thinking about
+  energy sources.  Fossil fuels are in the 20:1 to 100:1 range, renewables are
+  in the 10:1 to 20:1 range.  If the only sources of energy we had were less
+  than 1:1 then our energy budget would necessarily contract.
+
+
+**Future work**:
+
+* I'd like to better understand what breaks in the economy when we give up
+  exponential growth.
+
+* Read up more on sustainable steady-state economies (e.g.
+  [CASSE](https://steadystate.org/))
 
 
 
