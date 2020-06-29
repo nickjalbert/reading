@@ -26,6 +26,9 @@ https://ai.stanford.edu/~ang/papers/icml06-usinginaccuratemodelsinrl.pdf
 
 * [Learning and inference in the brain](https://www.fil.ion.ucl.ac.uk/~karl/Learning%20and%20inference%20in%20the%20brain.pdf)
 
+## Random
+
+* [Towards an Untrepreneurial Economy? The Entrepreneurship Industry and the Rise of the Veblenian Entrepreneur](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3479042)
 
 ## Video
 
