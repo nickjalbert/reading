@@ -92,7 +92,7 @@ energy usage.  From 1950 onward, economic growth increased more than energy
 growth (5% vs 3%).  Is this good news?  Can we continue to grow the economy
 uncoupled from energy consumption?
 
-This post divides non-energy-consumptive economic growth into two categories: 
+This post divides non-energy-consumptive economic growth into two categories:
 
 * **Efficiency gains** - Doing more productive work per energy unit consumed.
 * **The non-physical economy** - Non-manufacturing activity: services, finance, real
@@ -134,11 +134,89 @@ Tidbits:
   in the 10:1 to 20:1 range.  If the only sources of energy we had were less
   than 1:1 then our energy budget would necessarily contract.
 
+**[The Energy Trap](https://dothemath.ucsd.edu/2011/10/the-energy-trap/)**
+
+This post explores *the energy trap*, which is a term the author uses to
+describe the short-term shockwaves that ripple through society when we can no
+longer sustain exponential growth in energy usage.  More specifically: once
+fossil fuel availability declines and energy is in short supply, then building
+out renewables requires even more energy from our already-constrained budget.
+
+We look again at energy return on energy invested (EROEI).  Fossil fuels tend
+to have high EROEI (100:1 in the early days of oil), solar and wind less so
+(roughly 10:1 and 20:1 respectively).  Now let's play out several scenarios of
+decline:
+
+1. Assume we expect 2% decline in fossil fuel availability and in year 0 we
+   have 100 units of energy and want to build out renewable resources to make
+   up for the expected decline.  Using a 10:1 EROEI over a 40 year lifespan
+   where most of the energy invested up front, we'd need to spend 8 units of
+   energy to build out the resources.
+
+   Thus our year 0 energy budget looks like an 8% decline to arrest a 2%
+   decline next year.  Most importantly, if we decide to do nothing, the year 0
+   budget is untouched and year 1 only sees the 2% decline.  With these
+   assumptions, one step forward long term (in the form of renewables) always
+   results in four steps back in the short term (in the current energy budget).
+
+   An additional complicating factor: to replace the 2% energy decline in the
+   U.S., we'd have to build a 1GW power plant every week.  As a point of
+   comparison, France built 56 plants in 15 years when they went big on
+   nuclear.  Construction at the 2% replacement scale is difficult to imagine
+   and probably can't be ramped up immediately.
+
+2. The second scenario explores a world where there's a ramp up time in
+   construction capacity.  Once we expect the 2% decline, it takes several
+   years to get building at the scale needed to replace our dwindling fossil
+   fuel resources. The initial investment is less burdensome, but the dip in
+   total energy budget is greater.  The energy trap still exists, because at
+   any point we can give up on the construction of new capacity and ease the
+   pain.
+
+
+Another issue is that much of our infrastructure depends on liquid fuels.  This
+analysis does not take into the account the additional energy required to
+either convert our liquid fuel infrastructure to electric or to turn
+electricity into liquid fuel.
+
+I'll quote the conclusion of the blog post directly:
+
+> Politically, the Energy Trap is a killer. In my lifetime, I have not
+> witnessed in our political system the adult behavior that would be needed to
+> buckle down for a long-term goal involving short-term sacrifice.  Or at least
+> any brief bouts of such maturity have not been politically rewarded.  I’m not
+> blaming the politicians. We all scream for ice cream. Politicians simply
+> cater to our demands. We tend to vote for the candidate who promises a
+> bigger, better tomorrow—even if such a path is untenable.
+
+> The only way out of the political trap is for a substantial fraction of our
+> population to understand the dimensions of the problem: to understand that
+> we’ve been spoiled by the surplus energy available through fossil fuels, and
+> that we will have to make decade-level sacrifices to put ourselves on a new
+> track. The only way to accomplish this is through sober education, which is
+> what [Do the Math](https://dothemath.ucsd.edu/) is all about. It’s a trap!
+> Spread the word!
+
+
+Tidbits:
+
+* When put in the long view, the fossil fuel age is a blip in the timeline of
+  human history.
+
+* If the EROEI is the equivalent to the lifetime (e.g. 40:1 in the 40 year
+  lifetime case), then we can avoid the trap.  The trap also doesn't apply if
+  the source of energy doesn't require large upfront investment (as is often
+  the case with fossil fuels).
+
 
 **Future work**:
 
 * I'd like to better understand what breaks in the economy when we give up
   exponential growth.
+
+* Think more about the psychology of society.  Would spending 8 units of energy
+  to build out a yearly capacity of 2 units look like energy deprivation or
+  more jobs in renewables?
 
 * Read up more on sustainable steady-state economies (e.g.
   [CASSE](https://steadystate.org/))
