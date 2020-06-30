@@ -55,7 +55,7 @@ productive ends) stops.
 
 Highlighting the unforgiving nature of exponential growth, we can extend the
 analysis to scenarios like "capturing all the sun's energy" and "capturing all
-the milky way's energy" and those buy us at most a couple thousand years.
+the Milky Way's energy" and those buy us at most a couple thousand years.
 
 Another tack is taken by examining how much heat necessarily would be produced
 in a scenario when we continue our energy growth (say, through fusion) and
@@ -209,6 +209,81 @@ Tidbits:
   the case with fossil fuels).
 
 
+**Challenge question**
+
+In the spirit of the [Fermi
+problems](https://en.wikipedia.org/wiki/Fermi_problem) explored in these posts,
+I attempted to estimate how many floating point operations we have left in our
+budget given the Milky Way's energy reserve.
+
+Let's start the sun's power output[^2] of $$3.8\times10^{33} \frac{ergs}{sec}$$
+
+We'll convert that to watts:
+
+$$
+3.8\times10^{33} \frac{ergs}{sec}
+*
+\frac{1J}{10^7\text{ }ergs}
+=
+3.8 \times 10^{26} J/sec = 3.8\times10^{26}\text{ }watts
+$$
+
+So the Sun produces  $$3.8 \times 10^{26}$$ watts continuously.
+
+How much does a floating point operation cost in terms of energy?  Looking at
+the
+[Green 500](https://en.wikipedia.org/wiki/Performance_per_watt#Green500_List),
+our most efficient supercomputers perform about
+$$1.6\times10^{10} \frac{FLOPS}{watt}$$.
+
+So, how many FLOPS can we run with the Sun's energy output?
+
+$$
+3.8\times10^{26}\text{ }watts
+*
+1.6\times10^{10}\text{ }\frac{FLOPS}{watt}
+=
+6\times10^{36}\text{ }FLOPS
+$$
+
+So now, we've wired up our supercomputer to the sun and we're performing
+$$6\times10^{36}\text{ }FLOPS$$.
+How many operations will we be able to squeeze of the sun during its lifetime?
+
+The sun is expected to live another 8 billion years[^3]. That translates to:
+
+$$
+8x10^9\text{ years}* 365\frac{days}{year} *24\frac{hours}{day}*60\frac{min}{hour}*60\frac{sec}{hour} = 2.5\times10^{17} sec
+$$
+
+Thus we can expect to get about
+
+$$
+6\times10^{36}\text{ }FLOPS
+*
+2.5\times10^{17} sec
+= 1.5\times10^{54}\text{ floating point ops}
+$$
+
+out of our sun.  Let's assume that the sun is about average for the Milky Way.
+The Milky Way contains about $$4\times10^{11}$$ stars[^4].  This gives us a
+budget of
+
+$$
+1.5\times10^{54}\frac{\text{ floating point ops}}{\text{star}}
+*
+4\times10^{11}\text{ stars}
+=
+6\times10^{65}\text{ floating point ops}
+$$
+
+
+So, we have roughly $$6\times10^{65}$$ floating point ops before we exhaust
+all the energy in the Milky Way.  AlphaGoZero is estimated to have taken
+$$2\times10^{23}$$ floating point operations to train[^5].  Thus, the Milky Way
+has another $$3\times10^{42}$$ AlphaGoZeros in it.
+
+
 **Future work**:
 
 * I'd like to better understand what breaks in the economy when we give up
@@ -228,3 +303,14 @@ Tidbits:
 [^1]: See section 12 of this
       [Solar FAQ](https://www.sandia.gov/~jytsao/Solar%20FAQs.pdf) for
       more detailed calculations.
+
+[^2]:  See this
+       [NASA site](https://cosmicopia.gsfc.nasa.gov/qa_sun.html#power)
+       and this
+       [wiki page](https://en.wikipedia.org/wiki/Orders_of_magnitude_(power)#1015_to_1026_W).
+
+[^3]: [When Will the Sun Die?](https://www.space.com/14732-sun-burns-star-death.html)
+
+[^4]: [Milky Way](https://en.wikipedia.org/wiki/Milky_Way)
+
+[^5]: [AI and Compute](https://openai.com/blog/ai-and-compute/)
