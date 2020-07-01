@@ -3,6 +3,7 @@ layout: post
 title:  "Feynman Machine: The Universal Dynamical Systems Computer"
 date:   2020-03-27 12:00:00 -0700
 paper-url: https://arxiv.org/abs/1609.03971
+paper-year: 2016
 paper-authors:
   - Eric Laukien
   - Richard Crowder

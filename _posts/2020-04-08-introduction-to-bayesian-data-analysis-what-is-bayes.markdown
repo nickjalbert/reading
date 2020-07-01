@@ -3,6 +3,7 @@ layout: post
 title:  "Introduction to Bayesian data analysis, Part 1: What is Bayes?"
 date:   2020-04-08 12:04:00 -0700
 paper-url: https://www.youtube.com/watch?v=3OJEae7Qb_o
+paper-year: 2017
 paper-authors:
   - Rasmus Bååth
 author: Nick Jalbert

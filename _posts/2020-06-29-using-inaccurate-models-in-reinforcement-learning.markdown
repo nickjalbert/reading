@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Using Inaccurate Models in Reinforcement Learning (2006)"
+title:  "Using Inaccurate Models in Reinforcement Learning"
 date:   2020-06-29 12:07:00 -0400
 paper-url: https://ai.stanford.edu/~ang/papers/icml06-usinginaccuratemodelsinrl.pdf
+paper-year: 2006
 paper-authors:
   - Pieter Abbeel
   - Morgan Quigley

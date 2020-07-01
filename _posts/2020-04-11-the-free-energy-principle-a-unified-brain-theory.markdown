@@ -3,6 +3,7 @@ layout: post
 title:  "The free-energy principle: a unified brain theory?"
 date:   2020-04-11 12:07:00 -0700
 paper-url: https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf
+paper-year: 2010
 paper-authors:
   - Karl Friston
 author: Nick Jalbert

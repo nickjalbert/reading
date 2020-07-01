@@ -3,6 +3,7 @@ layout: post
 title:  "Introduction to Bayesian data analysis, Part 3: How to do Bayes?"
 date:   2020-04-08 12:06:00 -0700
 paper-url: https://www.youtube.com/watch?v=Ie-6H_r7I5A
+paper-year: 2017
 paper-authors:
   - Rasmus Bååth
 author: Nick Jalbert

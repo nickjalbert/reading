@@ -3,6 +3,7 @@ layout: post
 title:  "Evolution Strategies as a Scalable Alternative to Reinforcement Learning"
 date:   2020-06-08 12:07:00 -0700
 paper-url: https://arxiv.org/pdf/1703.03864.pdf
+paper-year: 2017
 paper-authors:
   - Tim Salimans
   - Jonathan Ho

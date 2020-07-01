@@ -3,6 +3,7 @@ layout: post
 title:  "Six views of embodied cognition"
 date:   2020-04-03 12:03:00 -0700
 paper-url: https://cogdev.sitehost.iu.edu/labwork/WilsonSixViewsofEmbodiedCog.pdf
+paper-year: 2002
 paper-authors:
   - Margaret Wilson
 author: Nick Jalbert

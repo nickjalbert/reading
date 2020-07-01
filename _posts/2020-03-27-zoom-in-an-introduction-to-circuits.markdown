@@ -3,6 +3,7 @@ layout: post
 title:  "Zoom In: An Introduction to Circuits"
 date:   2020-03-27 12:03:00 -0700
 paper-url: https://distill.pub/2020/circuits/zoom-in/
+paper-year: 2020
 paper-authors:
   - Chris Olah
   - Nick Cammarata

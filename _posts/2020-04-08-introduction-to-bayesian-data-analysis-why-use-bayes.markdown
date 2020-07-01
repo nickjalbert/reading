@@ -3,6 +3,7 @@ layout: post
 title:  "Introduction to Bayesian data analysis, Part 2: Why use Bayes?"
 date:   2020-04-08 12:05:00 -0700
 paper-url: https://www.youtube.com/watch?v=mAUwjSo5TJE
+paper-year: 2017
 paper-authors:
   - Rasmus Bååth
 author: Nick Jalbert

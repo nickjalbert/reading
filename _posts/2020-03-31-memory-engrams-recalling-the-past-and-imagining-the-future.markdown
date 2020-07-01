@@ -3,6 +3,7 @@ layout: post
 title:  "Memory engrams: Recalling the past and imagining the future"
 date:   2020-03-31 12:02:00 -0700
 paper-url: https://science.sciencemag.org/content/367/6473/eaaw4325
+paper-year: 2020
 paper-authors:
   - Sheena Josselyn
   - Susumu Tonegawa

@@ -3,6 +3,7 @@ layout: post
 title:  "Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics"
 date:   2020-03-27 12:01:00 -0700
 paper-url: https://arxiv.org/abs/1706.04317
+paper-year: 2017
 paper-authors:
   - Ken Kansky
   - Tom Silver

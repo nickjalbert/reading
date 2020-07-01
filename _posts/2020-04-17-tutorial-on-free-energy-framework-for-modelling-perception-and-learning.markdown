@@ -3,6 +3,7 @@ layout: post
 title:  "A tutorial on the free-energy framework for modelling perception and learning"
 date:   2020-04-17 12:07:00 -0700
 paper-url: https://www.sciencedirect.com/science/article/pii/S0022249615000759
+paper-year: 2017
 paper-authors:
   - Rafal Bogacz
 author: Nick Jalbert

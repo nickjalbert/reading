@@ -3,6 +3,7 @@ layout: post
 title:  "Surfing Uncertainty, Chapter 2: Adjusting the Volume"
 date:   2020-04-07 12:02:00 -0700
 paper-url: https://global.oup.com/academic/product/surfing-uncertainty-9780190217013
+paper-year: 2015
 paper-authors:
   - Andy Clark
 author: Nick Jalbert

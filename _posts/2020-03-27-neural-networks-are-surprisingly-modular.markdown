@@ -3,6 +3,7 @@ layout: post
 title:  "Neural Networks are Surprisingly Modular"
 date:   2020-03-27 12:02:00 -0700
 paper-url: https://arxiv.org/abs/2003.04881
+paper-year: 2020
 paper-authors:
   - Daniel Filan
   - Shlomi Hod
