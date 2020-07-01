@@ -10,6 +10,8 @@ Murphy](https://tmurphy.physics.ucsd.edu/) that attempt to estimate the limits
 of civilizational growth.  I thought these posts were great reads and worth
 summarizing here.
 
+
+
 **[Galactic-Scale Energy](https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/)**
 
 Since the mid-1600s, energy usage in the U.S. has grown by roughly ~2-3% a year
@@ -284,7 +286,7 @@ $$2\times10^{23}$$ floating point operations to train[^5].  Thus, the Milky Way
 has another $$3\times10^{42}$$ AlphaGoZeros in it.
 
 
-**Future work**:
+**Future work**
 
 * I'd like to better understand what breaks in the economy when we give up
   exponential growth.
@@ -297,6 +299,32 @@ has another $$3\times10^{42}$$ AlphaGoZeros in it.
   [CASSE](https://steadystate.org/))
 
 
+**Appendix**
+
+[Useful Energy Relations](https://dothemath.ucsd.edu/useful-energy-relations/)
+covers some common units.  Points to remember:
+
+* Energy is the quantitative property that that must be transferred to an
+  object in order to perform work on, or to heat, the object[^6].
+
+* Energy is measured in Joules (J) which has units
+  $$\frac{\text{kg} \cdot \text{m}^2}{\text{sec}^2}$$.
+
+* Power is a measure of the rate of energy usage.  This is measured in Watts
+  (W), which is Joules per second.  Alternatively, Watts have units
+  $$\frac{\text{kg} \cdot \text{m}^2}{\text{sec}^3}$$.
+
+* Think of energy as the water reservoir behind a dam and the power as the flow
+  in or out of the reservoir.
+
+| Unit                        | Joule Equivalent           |
+|:--------                    |:-------:                   |
+| eV                          | $$1.6\times10^{−19}$$ J    |
+| erg                         | $$1\times10^{-7}$$ J       |
+| BTU                         | 1055 J                     |
+| Cal or kcal (food calorie)  | 4184 J                     |
+| kWh                         | 3.6 MJ                     |
+| 1 gal of gasoline           | 125 MJ                     |
 
 <hr>
 
@@ -311,6 +339,8 @@ has another $$3\times10^{42}$$ AlphaGoZeros in it.
 
 [^3]: [When Will the Sun Die?](https://www.space.com/14732-sun-burns-star-death.html)
 
-[^4]: [Milky Way](https://en.wikipedia.org/wiki/Milky_Way)
+[^4]: [Wikipedia: Milky Way](https://en.wikipedia.org/wiki/Milky_Way)
 
 [^5]: [AI and Compute](https://openai.com/blog/ai-and-compute/)
+
+[^6]: [Wikipedia: Energy](https://en.wikipedia.org/wiki/Energy)
