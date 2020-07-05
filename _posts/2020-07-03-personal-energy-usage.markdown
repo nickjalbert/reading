@@ -65,6 +65,35 @@ panels.
 
 **Sustaining an individual's energy consumption with low-tech solar**
 
+The math above is both incomplete and assumes too much.  One of the many ways
+it's incomplete is that electricity doesn't make for a satisfying meal (even 10
+kW!).  So, if we want to live on our little desert plot, we'll have to figure
+out a way to convert our electricity into something more palatable.  I'm
+interested in exploring this further, but for now I'll just note that this
+introduces another inefficiency into the system which will make our 2000
+cal/day requirement more expensive at the generation stage.
+
+That aside, our analysis also assumes too much.  For example, it assumes that
+the energy consumption of our lifestyle would remain unchanged if we were
+interested in living off-the-grid in the desert.  I suspect, though, that
+without the infrastructure of society making it easy to consume vast quantities
+of energy without necessarily realizing it (highways, airplanes, internet
+shopping anyone?), our 240kWh per day might be overkill for living a full and
+satisfying life.
+
+We also assume that we will be able to import infrastructure from larger
+society to serve our needs.  However, when we build artificial general
+intelligence and--oops!--turns out it's more Terminator than Star Trek, we may
+not be able to source our solar panels from the wider world.  So it's probably
+worth checking out the math using nature's original solar panel: plants.
+
+So let's see how the math works out using plants.
+
+**References**
+* [The feasibility of switchgrass for biofuel production](https://www.researchgate.net/publication/280661407_The_feasibility_of_switchgrass_for_biofuel_production)
+* [Net energy of cellulosic ethanol from switchgrass](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2206559/)
+
+
 **TODO**
 * How much land do we need to cover an individual's energy needs (optimal vs
   realistic)?
