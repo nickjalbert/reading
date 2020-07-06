@@ -4,14 +4,13 @@ title:  "Reinforcement Learning in Robotics: A Survey"
 date:   2020-07-01 12:07:00 -0400
 paper-url: https://dl.acm.org/doi/10.1177/0278364913495721
 paper-year: 2013
+work-in-progress: true
 paper-authors:
   - Jens Kober
   - J. Andrew Bagnell
   - Jan Peters
 author: Nick Jalbert
 ---
-
-**Work in progress**
 
 ### 1. Introduction
 

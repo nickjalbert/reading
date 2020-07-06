@@ -16,6 +16,7 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
+          {% if post.work-in-progress %}Work in Progress:{% endif %}
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}{% if post.paper-year %}&nbsp;({{post.paper-year}}){% endif %}
           </a>

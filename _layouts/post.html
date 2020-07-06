@@ -27,6 +27,12 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% if page.work-in-progress %}
+      <div style="margin-bottom:1rem">
+          <b>Work in Progress</b>
+      </div>
+      <hr style="margin-bottom:1rem" />
+    {% endif %}
     {{ content }}
   </div>
   <div>

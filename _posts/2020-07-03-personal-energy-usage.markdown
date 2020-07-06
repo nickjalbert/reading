@@ -2,10 +2,9 @@
 layout: post
 title:  "Personal Energy Usage"
 date:   2020-07-03 12:07:00 -0700
+work-in-progress: true
 author: Nick Jalbert
 ---
-
-**Work in progress**
 
 Inspired by the [posts](https://dothemath.ucsd.edu/post-index/) of UCSD's Tom
 Murphy on societal energy consumption
