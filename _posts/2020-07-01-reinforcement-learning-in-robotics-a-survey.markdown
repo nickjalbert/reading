@@ -94,6 +94,8 @@ A crash course in RL:
   search* while optimizing the Lagrangian dual is known as a *value
   function-based approach*.
 
+#### Value Function-Based RL
+
 * Value function-based approaches generally attempt to learn a value function
   $$V^{\pi}(s)$$ or a state-action value function $$Q^{\pi}(s,a)$$ which
   measure the "goodness" of states and actions.  Given correct value functions,
@@ -119,6 +121,84 @@ A crash course in RL:
     Carlo techniques, but learn at each timestep of a rollout rather than
     waiting for complete traces.
 
+#### Policy Search RL
 
-**TODO 2.2.2**
+* Policy search has a number of features that make it amenable to robotics:
+  * It allows for integration of expert knowledge
+  * It allows for pre-structured policies
+  * An optimal policy will often have fewer parameters than an optimal
+    value-function
+  * Local policy search can often lead to good results
+  * External constraints can be incorporated naturally
+
+
+* In general, policy search will optimize a given policy $$\pi$$ parameterized
+  by $$\theta$$ by iteratively calculating the parameter gradient
+  $$\nabla\theta$$ that will increase the expected return:
+  $$\theta_{i+1} = \theta_i + \nabla\theta_i$$
+
+* Calculation of the policy update is the key differentiator between
+  algorithms, and generally comes in two flavors:
+  *  *Black box methods* -  These methods do not leverage the internal
+     structure of the problem, instead relying on sampling to estimate the
+     gradient.
+  *  *White box methods* - These methods take advantage of specifics of the
+     problem to calculate policy updates.  This includes model-based
+     approaches.
+
+* Following the gradient of the expected return $$J$$, that is
+  $$\theta_{i+1} = \theta_i + \alpha\nabla_\theta J_{}$$, is a white box
+  method that has proven particularly useful in a lot of research work.
+  This gradient can be estimated using finite difference methods perturbing
+  $$\theta$$, REINFORCE or likelihood ratio methods, expectation-maximization
+  methods, or dynamic programming methods.
+
+#### Policy Search vs Value Functions
+
+* Value functions are difficult to translate to robotics because the
+  high-dimensional spaces require function approximation out of the box. These
+  approximations are often brittle and expensive.
+
+* Value functions require total coverage of the state space and the largest
+  local error determines the quality of the policy.  Additionally, small
+  changes in the value function can result in large changes in the policy that
+  then feedback into the value function.  This can result in expensive
+  recalculations as well as instability.
+
+* Policy search often considers only local changes and thus is more amenable to
+  high dimensional spaces.  It, however, risks getting caught at local optima.
+
+* Terminology: policy search methods are sometimes called **actor methods**,
+  while value function search methods are sometimes called **critic methods**.
+  These can be combined to form **actor-critic methods** where the policy
+  is used to guide action while the value function is used to decide when
+  to update the policy.
+
+#### Function Approximation
+
+* Typically in RL, function approximation is based on experience collected by
+  interacting with the environment.
+
+* Function approximation is critical in continuous-space problems and often
+  needed even in large discrete-space problems to generalize behavior to
+  similar states.
+
+* There are many flavors of function approximation and these approximators can
+  be used to represent policies, value functions, and/or models.
+  * *Parametric approximators* have a fixed set of parameters and are used to
+    fit observed data.  Examples include neural nets and linear basis
+    functions.
+  * *Non-parametric approximators* expand representational power in proportion
+    to the data collected.  Gaussian process regression is an example.
+
+* One general problem of using function approximation techniques developed in
+  the supervised learning world is that they often assume independently and
+  identically distributed data.  This is often not feasible in RL settings
+  because the data is often path-dependent and that path can be influenced by
+  the function approximator itself.
+
+
+### 3. Challenges in Robot Reinforcement Learning
+
+**TODO**
 
