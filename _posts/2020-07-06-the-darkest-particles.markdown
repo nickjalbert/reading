@@ -16,10 +16,10 @@ travel close to the speed of light.  We are constantly irradiated by them, but
 are unaffected because they rarely interact with more familiar forms of
 matter.
 
-The standard model of physics allows for three neutrino flavors, but there
-have been a number of anomalies in experimental results that suggests this is
-not the whole picture.  Some physics (like the authors of this article)
-suggest these anomalies point to a fourth neutrino flavor.
+The standard model of physics allows for three neutrino flavors, but there have
+been a number of anomalies in experimental results that suggests this is not
+the whole picture.  Some physicists (like the authors of this article) suggest
+these anomalies point to a fourth neutrino flavor.
 
 This fourth neutrino flavor, the *sterile neutrino*, would interact with the
 universe only through gravity (and not the strong nuclear, weak nuclear, or
