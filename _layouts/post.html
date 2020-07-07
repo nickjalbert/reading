@@ -8,7 +8,7 @@ layout: default
     </h1>
     <p class="post-meta">
       {% if page.paper-authors %}
-        By:
+        Paper Authors:
       {% endif %}
       {% for paper-author in page.paper-authors %}
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -20,7 +20,7 @@ layout: default
     </p>
     <p class="post-meta">
       {% if page.paper-url %}
-        Link: <a href="{{page.paper-url}}">{{page.paper-url}}</a>
+        Paper Link: <a href="{{page.paper-url}}">{{page.paper-url}}</a>
       {% endif %}
     </p>
 
