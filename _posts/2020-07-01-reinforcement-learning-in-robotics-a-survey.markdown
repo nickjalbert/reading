@@ -199,5 +199,66 @@ A crash course in RL:
 
 ### 3. Challenges in Robot Reinforcement Learning
 
+Robotics is a challenging arena for reinforcement learning:
+* Continuous state spaces and actions must be represented; do you discretize or
+  approximate?  How fine-grained should your controls be?  How much
+  dimensionality can your learning algorithm handle?
+* The physicality is difficult: samples are expensive, there's jitter and
+  uncertainty in real world system, there's maintenance, sometimes a system
+  needs to be manually reset, algorithms must run in real-time.
+* Simulation can alleviate some problems with physicality, but must be robust
+  to model errors.
+* Goal specification (in the form of specifying a reward function) often
+  requires some thought.
+
+#### The Curse of Dimensionality
+
+* As the number of dimensions grow in a state or action space, the amount of
+  data needed to cover it grows exponentially.
+* The high degree of freedom in many robotic assemblies naturally leads to this
+  curse of dimensionality.
+* One approach is to impose a hierarchy: e.g. the robot plans at the grid level
+  and then lower-level systems produce motion unaware of the grid.
+* Dimensionality reduction can often limit the dynamic capabilities of a robot.
+
+#### The Curse of Real-World Samples
+
+* Robots are expensive and repairs take time and money.  Safe exploration is an
+  understudied field.
+* Often the environment is not fully captured by the state space, and thus
+  learning may not converge as conditions change (e.g. a strong wind affecting
+  the mobility of a robot).
+* Often human involvement is needed to reset a robot so it can re-sample the
+  environment.  This is slow and expensive.  Sample efficiency is important to
+  ameliorate this.
+* Real time requirements can complicate the sampling and learning procedures.
+* Time discretization and variable signal processing delays can affect the
+  ability to learn and control a robot.
+
+#### The Curse of Under-Modeling and Uncertainty
+
+* Modeling can be used to ameliorate some of the difficulties of the physical
+  world, but brings its own issues.
+* Model errors can compound and thus make behavior transfer difficult
+* Tasks that are self-stabilizing (e.g. the robot doesn't need to actively
+  control itself to avoid crash-and-burn) allow for better transfer of modelled
+  learning.  This is less true for tasks that require constant control (e.g.
+  pole-balancing).
+
+#### The Curse of Goal Specification
+
+* Goals are implicitly specified by the reward function.  Crafting a good
+  reward function is often non-trivial.
+* Variance in reward must be able to be leveraged to improve the policy,
+  otherwise no learning will occur.
+* A sparse reward can be overly difficult for a robot to use as a learning cue
+  so sometimes intermediate rewards will be added.
+* The difficulty of programming the control algorithm is partially transferred
+  to the shaping of the reward.
+* Inverse optimal control - trying to learn a reward function from a series of
+  expert demonstrations.
+
+### 4. Tractability Through Representation
+
 **TODO**
 
