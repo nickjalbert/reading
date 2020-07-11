@@ -50,7 +50,7 @@ capture all the solar energy we were receiving, then we'd need roughly 40
 $$\text{m}^2$$ to sustain my 10kW draw.  This is a 6.5m$$\times$$6.5m
 (21ft$$\times$$21ft) patch of land.
 
-Now, how much land does that represent when make our assumptions more
+Now, how much land does that represent when we make our assumptions more
 realistic?  Modern solar panels vary from 6% to 40% efficiency.[^6]  We'll use
 15% as a ballpark figure for economical mass-produced panels.  If we're only
 able to capture 15% of the energy hitting our patch of land, then we'll end up
