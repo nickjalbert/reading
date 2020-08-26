@@ -260,5 +260,62 @@ Robotics is a challenging arena for reinforcement learning:
 
 ### 4. Tractability Through Representation
 
+* Success in robotics RL has been achieved by leveraging:
+    * Effective representations
+    * Approximate models
+    * Prior knowledge
+
+#### Smart State-Action Discretization
+
+* Hand crafted discretization is the standard.  Care is taken to balance
+  expressiveness against state space reduction.
+
+* One can also attempt to automatically learn a discretization.  This seemingly
+  complicates the task because you are optimizing the state representation AND
+  the learning performance simultaneously.
+
+* Meta-actions/options - automatically constructing high-level actions has
+  "fascinated" RL researchers.  A number of success have been demonstrated in
+  the hierarchical RL space, although most seem to occur in fairly constrained
+  environments and/or on toy tasks.
+
+#### Value Function Approximation
+
+
+* Function approximation can be used to model the value function OR to model
+  the system.
+
+* Unfortunately, unstable behavior and divergence is often observed in practice
+  when using function approximators (some linear models are immune to this,
+  though).
+
+* If good features are known, value function approximation can use a linear
+  approximator. However, this relies on the quality of the features and is not
+  a general solution (in fact, it can make some problems impossible).
+
+* Neural nets have (unsurprisingly) shown to be useful for some tasks, but
+  obviously divergence must be contended with.
+
+* Other tactics:
+    * Generalization heuristics for neighboring states
+    * Using local models for particular parts of the state space
+    * Gaussian methods (Gaussian Process Regression)
+
+#### Pre-structured Policies
+
+* Picking a good approximator to represent the policy is important.  For
+  example, trade-offs between speed of learning and representational power
+  might be considered.
+
+* Depending on the task, a number of different approximators might be
+  appropriate.  Researchers have seen success using:
+  * Linear models
+  * Motor primitives
+  * Gaussian mixture models
+  * Neural nets
+  * Non parametric approximators
+
+
+
 **TODO**
 
