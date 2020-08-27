@@ -316,6 +316,54 @@ Robotics is a challenging arena for reinforcement learning:
   * Non parametric approximators
 
 
+### 5. Tractibility through Prior Knowledge
+
+* Incorporating prior knowledge can constrain the search space and dramatically
+  increase the ability to learn effective policies.  This prior knowledge
+  can look like:
+  * Initial policies
+  * Demonstrations
+  * Initial models
+  * Physical constraints (e.g. torque limits)
+
+* Sometimes hard constraints (such as ones designed to protect robot hardware)
+  pose difficulties for standard RL algos (i.e. hitting a discontinuous wall)
+
+#### Prior Knowledge Through Demonstration
+
+* People and animals often learn from imitation as well as trial and error.  In
+  the RL world, this is termed imitation and/or apprenticeship learning.
+
+* Demonstrations can remove the need for global exploration (i.e. by telling
+  the learner the critical states to focus on) and allow for much less
+  expensive local optimization.   Learning a good global solution, however,
+  requires a good demonstration (see "Fosbury Flop" in Olympic High Jump).
+
+* Both value function and policy search methods seem to work best in practice
+  when they're constrained to making small changes to the distribution over
+  states while learning. 
+
+* When teaching a robot, the teacher can either demonstrate directly or control
+  the robot.  Direct demonstration requires translation to "robot world" while
+  controlling the robot requires the teacher learning how to control it.
+
+* When teaching is not straightforward, a hard-coded policy can be used as
+  demonstration.  This has been shown to work in robotic walking tasks.
+
+#### Prior Knowledge Through Task Structuring
+
+* Decomposing tasks into simpler tasks (as in Hierarchical RL) and composing
+  simpler tasks into more complicated actions can both be used to learn better
+  policies.
+
+
+#### Directing Exploration with Prior Knowledge
+
+* Prior knowledge can be used to fine tune the trade-off between exploration
+  and exploitation and increase overall reward.
+
+
+### 6. Tractability Through Models
 
 **TODO**
 
