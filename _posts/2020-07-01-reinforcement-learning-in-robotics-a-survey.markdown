@@ -341,7 +341,7 @@ Robotics is a challenging arena for reinforcement learning:
 
 * Both value function and policy search methods seem to work best in practice
   when they're constrained to making small changes to the distribution over
-  states while learning. 
+  states while learning.
 
 * When teaching a robot, the teacher can either demonstrate directly or control
   the robot.  Direct demonstration requires translation to "robot world" while
@@ -365,5 +365,51 @@ Robotics is a challenging arena for reinforcement learning:
 
 ### 6. Tractability Through Models
 
-**TODO**
+* Many robotics RL problems can be made tractable by learning approximate
+  models of the transition system (vs attempting to directly learn value
+  function approximations or policies from live interaction).
 
+* It is desirable to build a model esp. because simulation or rehearsal is
+  much faster than gathering actual experience in the physical world.
+
+#### Core Issues and General Techniques
+
+* Model-based methods that learn a model from data can be much more sample
+  efficient.  However, there can be problems with:
+    * Expansive compute resource requirements
+    * Simulation biases
+    * Real world stochasticity
+    * Difficulties sampling from the simulator
+
+**Simulation Biases**
+
+* Any simulation will not capture all the dynamics of the real world.  If these
+  dynamics are important to the task, then this can break the learning
+  algorithm and generate policies that work in the simulator but not in the
+  real world.
+
+* An interesting distinction is the type of simulator errors that compound vs
+  non-compounding errors.
+
+* Adding noise to the model can help reduce tendencies to overfit policies to
+  quirks of the simulator.
+
+* Uncertainties about environmental dynamics maintained in the model
+  itself can be leveraged to create policies that generalize better.
+
+* Tricks around model randomization have also proven to be useful.
+
+#### Successful Approaches for Learning Forward Models
+
+How can we obtain a candidate policy from a forward model?
+
+* Rollouts using the model can be used to calculate rough gradients to update
+  policies or learn approximate value functions.
+
+* The model can be directly interrogated to generate plausible policies using
+  techniques from control systems research.
+
+### 7. A Case Study: Ball-in-a-Cup
+
+
+**TODO**
