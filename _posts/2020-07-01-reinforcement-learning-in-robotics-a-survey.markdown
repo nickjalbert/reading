@@ -411,5 +411,52 @@ How can we obtain a candidate policy from a forward model?
 
 ### 7. A Case Study: Ball-in-a-Cup
 
+* This section describes a case study of teaching a robot to catch a ball in a
+  cup.  The cup is held in one hand, the ball is attached to the bottom of the
+  cup with a string, and initially the ball is at a dead hang under the cup.
+  The cup is quickly moved to fling the ball above the cup and then caught with
+  the cup.
+
+* The naive rendering of the scenario would have an intractable-for-RL ~20
+  state and ~7 action dimensions.
+
+* Reward shaping is important: the "catch the ball"-only reward was too sparse
+  to learn effectively.  The "closeness to cup" reward got stuck in local
+  minimums (hitting the ball with the cup edge).
+
+* Creating a faithful simulator is difficult.
+
+* The policy is represented as a dynamical system of motor primitives.  Over
+  the course of successive research projects, the policy representation was
+  distilled.  The particular policy representation choice has the nice property
+  that it is easy to include knowledge learned from demonstration.
+
+* An initial demonstration was done by having a human directly manipulate the
+  robot arm.  RL was then used to search the local space "around" the
+  demonstrated movement to optimize.
+
+* Policy search methods are better suited for episodic tasks that need local
+  optimization (thanks to the demo) with a large, high-dimensional state/action
+  space.  An EM method was employed instead of a gradient based method to be
+  more sample efficient and require less hyperparameter tuning.  This algorithm
+  performs a local search around the demonstrated policy.
+
+* They used a simulator for rehearsal training, but often a good simulator
+  policy would just miss getting the ball into the cup.  Thus the ability to
+  switch between the simulator and the physical system and incorporate data
+  from both was important.
+
+* Getting data from the physical system was slow and tedious.
+
+* Ultimately, the policy converged and the robot was regularly able to get the
+  ball into the cup after ~100 episodes.
+
+* A different value-function-based approach was also tested (perhaps by another
+  team?) where the task was decomposed into two separate phases (swing-up and
+  catch).  The catch phase was hard coded, but a swing-up policy was learned
+  using SARSA and state-action discretization.
+
+### 8. Discussion
+
 
 **TODO**
