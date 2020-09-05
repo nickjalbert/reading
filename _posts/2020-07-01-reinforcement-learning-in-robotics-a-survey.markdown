@@ -4,13 +4,49 @@ title:  "Reinforcement Learning in Robotics: A Survey"
 date:   2020-07-01 12:07:00 -0400
 paper-url: https://dl.acm.org/doi/10.1177/0278364913495721
 paper-year: 2013
-work-in-progress: true
 paper-authors:
   - Jens Kober
   - J. Andrew Bagnell
   - Jan Peters
 author: Nick Jalbert
 ---
+
+### Executive Summary
+
+This is a long paper from 2013 that touches on many topics at the intersection
+of RL and robotics.  I'll list some of my most interesting take-aways here as
+someone familiar with the RL space and not-so-familiar with the robotics space:
+
+* The physicality of a robotics system complicates learning:
+    * "Rollouts" are expensive and tedious to obtain
+    * Sensors can be unreliable or ambiguous
+    * Everything is continuous so figuring out how to design your
+      representations and approximations can greatly impact the ability of the
+      robot to learn
+    * You want to protect your hardware so naive exploration is not always
+      possible
+    * Different robots (even if built to the same spec) will have different
+      physical properties that can affect the policy (think slightly different
+      torque responses in two otherwise identical motors)
+    * The environment itself is often not constant (think windy days vs calm
+      days)
+
+* You may try to get around these by modelling the system, but this modelling
+  will almost certainly be unable to capture all the relevant dynamics.  Thus
+  you need some strategy to deal with model error.
+
+* Crafting a good reward function that can enable learning is often
+  non-obvious and critically important.
+
+* The ability to incorporate prior knowledge is important in making the
+  learning task tractable.  This can range from basic models of physics to
+  actual human demonstrations.  RL algorithms that allow more localized search
+  "around" expert demonstrations are very valuable in this domain.
+
+* RL (as of 2013) is not easy to apply "out of the box" to robotics task.  This
+  is contrasted with supervised learning which can often be applied to a new
+  dataset and quickly produce value.
+
 
 ### 1. Introduction
 
@@ -458,5 +494,46 @@ How can we obtain a candidate policy from a forward model?
 
 ### 8. Discussion
 
+* RL in the robotics domain is not yet (as of 2013) straightforward to apply,
+  it's part art and part science at the moment.
+  * Users must decide when enough prior knowledge has been baked in and when to
+    allow learning to take over.
+  * Reward function shaping and domain representation is very important.
 
-**TODO**
+#### Open Questions (as of 2013)
+
+* How can we choose representations automatically?
+* How do you approximate states, value functions, and domains (or any
+  combination of those three) for a given problem?
+* How can you generate good reward functions automatically?
+* How much prior knowledge is useful?
+* How can we encode prior knowledge automatically?  Esp. when human
+  demonstrations are difficult.
+* How can RL better cope with the noisy, ambiguous, and incomplete sensor data
+  that is often found in robotics domains?
+* How can we reduce the need for hyperparameter tuning?
+* How can we better deal with under-modeling and model errors?
+    * Modelling is attractive given the cost of obtaining real world data, but
+      bad models (or poorly coping algorithms) can lead to bad policies.
+
+#### Practical Challenges
+
+* How can we better transfer learning (e.g. simple tasks to more complex tasks)
+  and better exploit the data we have.
+* Reproducibility and benchmarks for the research community.
+
+#### Lessons from Robotics to RL researchers
+
+* The challenges inherent to the robotics domain may not be fully appreciated
+  in much of the RL field (multi-dimensional continuous action spaces,
+  continuously drifting noise, frequent changes in the hardware and the
+  environment, and the inevitability of undermodeling)
+
+* Incorporating domain knowledge (e.g. basic models of the physical world) has
+  been successful in robotics. Better techniques for doing this would be
+  valuable.
+
+* Local optimality may be more important than global optimality (esp. when
+  you're starting from a reasonable baseline like a human demonstration).
+
+* More research into reward shaping, esp. physically motivated reward shaping.
