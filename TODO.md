@@ -1,6 +1,9 @@
 TODO: writup
 https://ai.stanford.edu/~ang/papers/icml06-usinginaccuratemodelsinrl.pdf
 
+* [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/abs/2005.01643)
+* [Hindsight Experience Replay](https://arxiv.org/pdf/1707.01495.pdf)
+* [Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/abs/2006.09359)
 
 ## Reinforcement Learning
 
