@@ -1,9 +1,9 @@
---
+---
 layout: post
 title:  "Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems"
 date:   2021-02-18 12:07:00 -0400
 paper-url: https://arxiv.org/abs/2005.01643
-paper-year: 2012
+paper-year: 2020
 work-in-progress: true
 paper-authors:
   - Sergey Levine
