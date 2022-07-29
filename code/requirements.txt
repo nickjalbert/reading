@@ -69,7 +69,7 @@ Markdown==3.3.3
 MarkupSafe==1.1.1
 matplotlib==3.3.4
 mccabe==0.6.1
-mistune==0.8.4
+mistune==2.0.3
 mlflow==1.13.1
 msrest==0.6.21
 nbclassic==0.2.6
